@@ -13,8 +13,16 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 999;
   position: sticky;
-  @media screen and (max-width: 400px) {
-    height: 30px;
+
+  @media screen and (max-width: 414px) {
+    height: 60px;
+    position: sticky;
+    width: 100%;
+  }
+  @media screen and (max-width: 375px) {
+    height: 50px;
+    position: sticky;
+    width: 100%;
   }
 `;
 
@@ -24,16 +32,15 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-
   padding-left: 15px;
   text-transform: uppercase;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 414px) {
     padding-left: 0;
     position: absolute;
-    top: 10px;
+    top: 3px;
     left: 15px;
-    font-size: 17px;
+    font-size: 20px;
   }
 `;
 export const NavLogo = styled.img`
@@ -41,9 +48,9 @@ export const NavLogo = styled.img`
   height: 60px;
   padding-right: 10px;
 
-  @media screen and (max-width: 400px) {
-    width: 28px;
-    height: 28px;
+  @media screen and (max-width: 414px) {
+    width: 50px;
+    height: 50px;
   }
 `;
 export const NavIcon = styled.div`
@@ -51,6 +58,14 @@ export const NavIcon = styled.div`
   position: absolute;
   top: 15px;
   right: 15px;
+
+  @media screen and (max-width: 414px) {
+    top: 9px;
+  }
+
+  @media screen and (max-width: 375px) {
+    top: 0;
+  }
 `;
 export const Bars = styled(CgLoadbarSound)`
   color: #fff;
@@ -58,6 +73,16 @@ export const Bars = styled(CgLoadbarSound)`
   width: 60px;
   cursor: pointer;
   transition-delay: ${({ click }) => (click ? "1s" : null)};
+
+  @media screen and (max-width: 414px) {
+    height: 40px;
+    width: 40px;
+  }
+
+  @media screen and (max-width: 375px) {
+    height: 40px;
+    width: 40px;
+  }
 `;
 export const X = styled(FaTimes)`
   color: #fff;
@@ -65,6 +90,16 @@ export const X = styled(FaTimes)`
   width: 60px;
   cursor: pointer;
   transition-delay: ${({ click }) => (click ? "1s" : null)};
+
+  @media screen and (max-width: 414px) {
+    height: 40px;
+    width: 40px;
+  }
+
+  @media screen and (max-width: 375px) {
+    height: 40px;
+    width: 40px;
+  }
 `;
 export const NavMenu = styled.ul`
   display: flex;
@@ -81,6 +116,14 @@ export const NavMenu = styled.ul`
   background: url(${oro});
   background-size: 160% 100%;
   background-color: #0f72e5;
+
+  @media screen and (max-width: 414px) {
+    top: ${({ click }) => (click ? "60px" : "-1000px")};
+  }
+
+  @media screen and (max-width: 375px) {
+    top: ${({ click }) => (click ? "49px" : "-1000px")};
+  }
 `;
 export const NavItem = styled.li`
   font-size: 2rem;
@@ -95,4 +138,9 @@ export const NavLinks = styled(Link)`
   font-size: 60px;
   line-height: 70px;
   padding-bottom: 50px;
+
+  @media screen and (max-width: 375px) {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
 `;
