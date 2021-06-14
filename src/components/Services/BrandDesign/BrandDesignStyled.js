@@ -13,6 +13,11 @@ export const BlueContainer = styled.div`
   width: 35%;
   background: linear-gradient(91.46deg, #0f72e5 1.21%, #0f72e5 98.76%);
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    height: 100%;
+    width: 25%;
+  }
+
   @media screen and (max-width: 414px) {
     width: 100%;
     height: 45vh;
@@ -30,6 +35,10 @@ export const TitleDiv = styled.div`
   left: 459px;
   bottom: 855px;
   position: absolute;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 340px;
+  }
 
   @media screen and (max-width: 414px) {
     left: 20px;
@@ -58,6 +67,11 @@ export const Title = styled.h3`
   padding: 500px 0 0 50px;
   letter-spacing: 0.135em;
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    font-size: 35px;
+    padding-left: 30px;
+  }
+
   @media screen and (max-width: 414px) {
     padding: 50px 0 0 10px;
     font-size: 30px;
@@ -71,6 +85,12 @@ export const Text = styled.p`
   padding: 20px 0 0 50px;
   font-size: 30px;
   max-width: 570px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
 
   @media screen and (max-width: 414px) {
     font-size: 20px;
@@ -116,9 +136,27 @@ export const MainTitle = styled.h2`
   }
 `;
 export const ImgWrapper = styled.div`
+  &.ActivePicture {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  &.LastPicture {
+    transform: translateX(-100%);
+    pointer-events: none;
+  }
+  &.NextPicture {
+    transform: translateX(-100%);
+    pointer-events: none;
+  }
+  opacity: 0;
   padding-top: 100px;
   left: 270px;
   position: absolute;
+  transition: all 0.9s linear;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 145px;
+  }
 
   @media screen and (max-width: 414px) {
     top: 500px;
@@ -158,6 +196,10 @@ export const ArrowContainer = styled.div`
   left: 600px;
   position: absolute;
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 500px;
+  }
+
   @media screen and (max-width: 414px) {
     left: 110px;
     top: 100px;
@@ -182,6 +224,11 @@ export const ArrowContainer = styled.div`
 export const Points = styled.img`
   padding-top: 80px;
   padding-left: 48px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding-top: 100px;
+    padding-left: 30px;
+  }
 
   @media screen and (max-width: 414px) {
     height: 0;

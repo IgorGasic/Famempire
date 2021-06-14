@@ -1,0 +1,15 @@
+.react-player{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 868px;
+    height: 500px;
+}
+
+@media screen and (max-width: 414px){
+    .react-player{
+        max-width: 390px;
+        max-height: 390px;
+        padding-right: 2px;
+    }
+}

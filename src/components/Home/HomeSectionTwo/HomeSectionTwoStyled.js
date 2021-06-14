@@ -51,10 +51,21 @@ export const Img = styled.img`
   height: 490px;
   right: 0;
 
-  @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    height: 450px;
-    width: 500px;
-    right: -60px;
+  @media screen and (max-width: 1600px) {
+    height: 400px;
+    width: 400px;
+    left: 1200px;
+  }
+  @media screen and (max-width: 1570px) {
+    height: 400px;
+    width: 400px;
+    left: 1150px;
+  }
+
+  @media screen and (max-width: 1500px) {
+    height: 400px;
+    width: 400px;
+    left: 1100px;
   }
 
   @media screen and (max-width: 414px) {
@@ -68,8 +79,8 @@ export const Content = styled.div`
   text-align: center;
   padding-top: 85px;
 
-  @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-left: 7.7%;
+  @media screen and (max-width: 1600px) {
+    padding-left: 8.7%;
     padding-top: 50px;
   }
 

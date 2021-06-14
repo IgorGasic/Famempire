@@ -203,7 +203,7 @@ export const Points = styled.img`
   padding: 750px 0 0 20px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding: 535px 0 0 20px;
+    padding: 505px 0 0 20px;
   }
 
   @media screen and (max-width: 414px) {

@@ -64,7 +64,7 @@ export const Navbar = () => {
             onMouseLeave={onMouseLeave}
             onClick={extendElement}
           >
-            <NavLinks>Services</NavLinks>
+            <NavLinks service>Services</NavLinks>
             {dropdown && <Dropdown closeMobile={closeMobile} />}
           </NavItem>
           <NavItem>

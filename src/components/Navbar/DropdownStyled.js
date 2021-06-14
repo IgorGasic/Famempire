@@ -17,6 +17,7 @@ export const List = styled.ul`
     text-align: center;
     display: flex;
     flex-direction: column;
+    padding-bottom: 5px;
   }
 `;
 
@@ -46,5 +47,9 @@ export const LinkItem = styled(Link)`
     border-left: none;
     align-items: center;
     text-align: center;
+  }
+
+  @media screen and (max-width: 320px) {
+    font-size: 10px;
   }
 `;

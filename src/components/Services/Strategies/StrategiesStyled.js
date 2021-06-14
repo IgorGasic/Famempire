@@ -125,7 +125,7 @@ export const Wrapper = styled.div`
   left: 965px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 630px;
+    left: 570px;
   }
 
   @media screen and (max-width: 414px) {
