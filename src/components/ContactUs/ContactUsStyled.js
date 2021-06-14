@@ -7,7 +7,11 @@ export const ContactSection = styled.div`
   background-position: center;
   background-size: cover;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    height: 100%;
+  }
+
+  @media screen and (max-width: 414px) {
     height: 100%;
   }
 `;
@@ -17,7 +21,7 @@ export const Form = styled.form`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     margin-right: 180px;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 414px) {
     display: flex;
     flex-direction: column;
   }
@@ -25,7 +29,7 @@ export const Form = styled.form`
 export const ContainerLeft = styled.div`
   width: 900px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 414px) {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -36,7 +40,7 @@ export const Title = styled.h3`
   padding-left: 50px;
   padding-top: 50px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 414px) {
     padding-left: 0;
     font-size: 35px;
     text-align: center;
@@ -47,7 +51,7 @@ export const LeftContent = styled.div`
   flex-direction: column;
   padding: 15px 0 0 150px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 414px) {
     padding: 0;
   }
 `;
@@ -65,7 +69,7 @@ export const Input = styled.input`
     color: #000;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 414px) {
     padding: 20px 10px;
     margin: 20px 0;
   }
@@ -73,7 +77,7 @@ export const Input = styled.input`
 export const ContainerRight = styled.div`
   width: 900px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 414px) {
     width: 300px;
     margin-right: auto;
     margin-left: auto;
@@ -84,7 +88,7 @@ export const RightContent = styled.div`
   flex-direction: column;
   padding: 166px 0 0 120px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 414px) {
     padding: 50px 0 0 0;
   }
 `;
@@ -103,7 +107,7 @@ export const TextArea = styled.textarea`
     color: #000;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 414px) {
     font-size: 20px;
     height: 220px;
   }
@@ -113,7 +117,7 @@ export const ButtonArea = styled.div`
   justify-content: center;
   padding-top: 50px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 414px) {
     padding-bottom: 50px;
   }
 `;
@@ -132,7 +136,7 @@ export const Button = styled.button`
     width: 30%;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 414px) {
     width: 80%;
   }
 `;

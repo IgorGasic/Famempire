@@ -57,6 +57,11 @@ export const ImgWrapper = styled.div`
   -moz-box-shadow: -69px 61px 53px -2px rgba(0, 0, 0, 0.75);
   box-shadow: -81px 92px 32px 8px rgba(0, 0, 0, 0.25);
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    max-width: 520px;
+    max-height: 520px;
+  }
+
   @media screen and (max-width: 415px) {
     margin-top: 50px;
     width: 300px;
@@ -84,6 +89,11 @@ export const Img = styled.img`
   height: 632px;
   object-fit: cover;
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    max-width: 520px;
+    max-height: 520px;
+  }
+
   @media screen and (max-width: 415px) {
     width: 300px;
     height: 300px;
@@ -96,6 +106,10 @@ export const Img = styled.img`
 export const Content = styled.div`
   margin-top: 350px;
   margin-left: 100px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    margin-left: 50px;
+  }
 
   @media screen and (max-width: 415px) {
     margin-top: 60px;
@@ -167,6 +181,10 @@ export const Arrow = styled.div`
   margin-top: 890px;
   padding-left: 120px;
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    margin-top: 800px;
+    padding-left: 90px;
+  }
   @media screen and (max-width: 414px) {
     margin-top: 790px;
   }
@@ -183,6 +201,10 @@ export const Arrow = styled.div`
 `;
 export const Points = styled.img`
   padding: 750px 0 0 20px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding: 535px 0 0 20px;
+  }
 
   @media screen and (max-width: 414px) {
     padding: 0;

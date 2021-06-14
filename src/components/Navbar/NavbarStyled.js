@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { keyframes } from "styled-components";
 import { Link } from "react-router-dom";
 import { CgLoadbarSound } from "react-icons/cg";
 import { FaTimes } from "react-icons/fa";
@@ -15,7 +14,6 @@ export const Nav = styled.nav`
   position: sticky;
 
   @media screen and (max-width: 414px) {
-    height: 60px;
     position: sticky;
     width: 100%;
   }
@@ -72,7 +70,6 @@ export const Bars = styled(CgLoadbarSound)`
   height: 60px;
   width: 60px;
   cursor: pointer;
-  transition-delay: ${({ click }) => (click ? "1s" : null)};
 
   @media screen and (max-width: 414px) {
     height: 40px;
@@ -89,7 +86,6 @@ export const X = styled(FaTimes)`
   height: 60px;
   width: 60px;
   cursor: pointer;
-  transition-delay: ${({ click }) => (click ? "1s" : null)};
 
   @media screen and (max-width: 414px) {
     height: 40px;
@@ -107,7 +103,7 @@ export const NavMenu = styled.ul`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   position: absolute;
   top: ${({ click }) => (click ? "80px" : "-900px")};
   /* visibility:${({ click }) => (click ? "visible" : "hidden")} ; */
@@ -119,6 +115,8 @@ export const NavMenu = styled.ul`
 
   @media screen and (max-width: 414px) {
     top: ${({ click }) => (click ? "60px" : "-1000px")};
+    height: 100vh;
+    justify-content: flex-start;
   }
 
   @media screen and (max-width: 375px) {
@@ -137,7 +135,16 @@ export const NavLinks = styled(Link)`
   color: #fff;
   font-size: 60px;
   line-height: 70px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding-bottom: 40px;
+  }
+
+  @media screen and (max-width: 414px) {
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
 
   @media screen and (max-width: 375px) {
     font-size: 30px;

@@ -4,6 +4,10 @@ export const MainContainer = styled.div`
   display: flex;
   width: 100%;
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    height: 100%;
+  }
+
   @media screen and (max-width: 414px) {
     flex-direction: column;
   }
@@ -12,6 +16,10 @@ export const BlueContainer = styled.div`
   height: 93vh;
   width: 35%;
   background: linear-gradient(91.46deg, #0f72e5 1.21%, #0f72e5 98.76%);
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    height: 100%;
+  }
 
   @media screen and (max-width: 414px) {
     width: 100%;
@@ -26,6 +34,10 @@ export const TitleDiv = styled.div`
   left: 457px;
   bottom: 860px;
   position: absolute;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 320px;
+  }
 
   @media screen and (max-width: 414px) {
     left: 20px;
@@ -73,6 +85,10 @@ export const Text = styled.p`
   font-size: 30px;
   max-width: 570px;
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding: 20px 20px 0 50px;
+  }
+
   @media screen and (max-width: 414px) {
     text-align: center;
     margin-right: 50px;
@@ -107,6 +123,10 @@ export const Wrapper = styled.div`
   position: absolute;
   bottom: 0;
   left: 965px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 630px;
+  }
 
   @media screen and (max-width: 414px) {
     left: 110px;
@@ -154,6 +174,10 @@ export const TextDiv = styled.div`
   margin-left: 230px;
   padding-left: 10px;
   padding-top: 100px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    margin-left: 60px;
+  }
 
   @media screen and (max-width: 414px) {
     width: 400px;

@@ -1,6 +1,5 @@
 import React from "react";
 import { ContainerContent, Text } from "./HomeSectionOneStyled";
-import Fade from "react-reveal/Fade";
 
 const HomeSectionOne = () => {
   return (
