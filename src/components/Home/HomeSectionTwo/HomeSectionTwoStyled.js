@@ -59,13 +59,13 @@ export const Img = styled.img`
   @media screen and (max-width: 1570px) {
     height: 400px;
     width: 400px;
-    left: 1150px;
+    left: 1120px;
   }
 
   @media screen and (max-width: 1500px) {
     height: 400px;
     width: 400px;
-    left: 1100px;
+    left: 1070px;
   }
 
   @media screen and (max-width: 414px) {

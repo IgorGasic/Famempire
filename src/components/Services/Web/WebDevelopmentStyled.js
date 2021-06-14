@@ -109,17 +109,7 @@ export const ContentContainer = styled.div`
     position: static;
   }
 `;
-export const ArrowLeft = styled.img`
-  margin-right: 80px;
-  height: 56px;
-  width: 56px;
-  cursor: pointer;
-`;
-export const ArrowRight = styled.img`
-  height: 56px;
-  width: 56px;
-  cursor: pointer;
-`;
+
 export const MainTitle = styled.h2`
   font-size: 50px;
   text-transform: uppercase;
@@ -162,7 +152,6 @@ export const ImgWrapper = styled.div`
     top: 500px;
     left: 12px;
   }
-  }
   @media screen and (max-width: 375px) {
     left: 15px;
   }
@@ -191,37 +180,6 @@ export const Img = styled.img`
     height: 200px;
   }
 `;
-export const ArrowContainer = styled.div`
-  display: flex;
-  padding-top: 800px;
-  left: 600px;
-  position: absolute;
-
-  @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 500px;
-  }
-
-  @media screen and (max-width: 414px) {
-    left: 110px;
-    top: 100px;
-    padding-bottom: 50px;
-  }
-  @media screen and (max-width: 375px) {
-    left: 90px;
-    top: 100px;
-    padding-bottom: 50px;
-  }
-  @media screen and (max-width: 360px) {
-    left: 85px;
-    top: 100px;
-    padding-bottom: 50px;
-  }
-  @media screen and (max-width: 320px) {
-    left: 65px;
-    top: 80px;
-    padding-bottom: 50px;
-  }
-`;
 export const Points = styled.img`
   padding-top: 113px;
   padding-left: 48px;
@@ -234,5 +192,40 @@ export const Points = styled.img`
   @media screen and (max-width: 414px) {
     height: 0;
     width: 0;
+  }
+`;
+export const ShitText = styled.p`
+  text-align: center;
+  position: absolute;
+  width: 894px;
+  font-size: 30px;
+  line-height: 35px;
+  left: 260px;
+  top: 864px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 135px;
+  }
+  @media screen and (max-width: 414px) {
+    padding-top: 50px;
+    width: 350px;
+    left: 25px;
+  }
+  @media screen and (max-width: 375px) {
+    padding-top: 50px;
+    width: 350px;
+    left: 15px;
+  }
+  @media screen and (max-width: 360px) {
+    padding-top: 40px;
+    width: 350px;
+    left: 7px;
+  }
+
+  @media screen and (max-width: 320px) {
+    padding-top: 5px;
+    width: 300px;
+    left: 7px;
+    font-size: 20px;
   }
 `;

@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { data } from "../../../data/Web";
 import points from "../../../images/tackice.svg";
-import dugmeDesno from "../../../images/dugmeDesno.svg";
-import dugmeLevo from "../../../images/dugmeLevo.svg";
 import {
   MainContainer,
   BlueContainer,
@@ -13,9 +11,7 @@ import {
   ImgWrapper,
   Img,
   TitleDiv,
-  ArrowContainer,
-  ArrowLeft,
-  ArrowRight,
+  ShitText,
   Points,
 } from "./WebDevelopmentStyled";
 
@@ -64,16 +60,11 @@ const WebDevelopment = () => {
               </ImgWrapper>
             );
           })}
-          <ArrowContainer>
-            <ArrowLeft
-              src={dugmeLevo}
-              onClick={() => setIndex(index - 1)}
-            ></ArrowLeft>
-            <ArrowRight
-              src={dugmeDesno}
-              onClick={() => setIndex(index + 1)}
-            ></ArrowRight>
-          </ArrowContainer>
+          <ShitText>
+            Web development is hard to show without actually opening the site.
+            <br />
+            This is one example of a design that can be created.
+          </ShitText>
         </ContentContainer>
       </MainContainer>
     </>

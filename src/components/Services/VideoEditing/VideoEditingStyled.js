@@ -147,6 +147,24 @@ export const ArrowContainer = styled.div`
     left: 120px;
     top: 180px;
     padding-bottom: 50px;
+
+    @media screen and (max-width: 375px) {
+      left: 90px;
+      top: 150px;
+      padding-bottom: 50px;
+    }
+
+    @media screen and (max-width: 360px) {
+      left: 85px;
+      top: 150px;
+      padding-bottom: 50px;
+    }
+
+    @media screen and (max-width: 320px) {
+      left: 65px;
+      top: 120px;
+      padding-bottom: 50px;
+    }
   }
 `;
 export const VideoWrapper = styled.div`
