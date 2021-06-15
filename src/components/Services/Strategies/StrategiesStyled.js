@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   display: flex;
   width: 100%;
+  height: 93vh;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     height: 100%;
@@ -13,7 +14,7 @@ export const MainContainer = styled.div`
   }
 `;
 export const BlueContainer = styled.div`
-  height: 100vh;
+  height: 93vh;
   width: 35%;
   background: linear-gradient(91.46deg, #0f72e5 1.21%, #0f72e5 98.76%);
 
@@ -31,8 +32,8 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 457px;
-  bottom: 860px;
+  left: 437px;
+  bottom: 830px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
