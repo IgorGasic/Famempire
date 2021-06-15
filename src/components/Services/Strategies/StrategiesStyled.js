@@ -67,7 +67,7 @@ export const Title = styled.h3`
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-top: 275px;
+    padding-top: 285px;
     font-size: 35px;
     padding-left: 30px;
   }
@@ -95,7 +95,7 @@ export const Text = styled.p`
   max-width: 570px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding: 20px 20px 0 50px;
+    padding: 20px 20px 0 30px;
   }
 
   @media screen and (max-width: 414px) {
@@ -134,7 +134,7 @@ export const Wrapper = styled.div`
   left: 805px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 570px;
+    left: 740px;
   }
 
   @media screen and (max-width: 414px) {
@@ -173,7 +173,7 @@ export const ImgKonj = styled.img`
   height: 757px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    height: 690px;
+    height: 640px;
   }
 
   @media screen and (max-width: 414px) {
@@ -194,7 +194,7 @@ export const TextDiv = styled.div`
   padding-top: 100px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    margin-left: 60px;
+    margin-left: 90px;
   }
 
   @media screen and (max-width: 414px) {

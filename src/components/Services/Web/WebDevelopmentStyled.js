@@ -165,6 +165,11 @@ export const Img = styled.img`
   width: 868px;
   height: 492px;
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    width: 800px;
+    height: 440px;
+  }
+
   @media screen and (max-width: 414px) {
     width: 390px;
     height: 250px;
@@ -187,7 +192,7 @@ export const Points = styled.img`
   padding-left: 48px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-left: 30px;
   }
 
@@ -207,6 +212,8 @@ export const ShitText = styled.p`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 135px;
+    font-size: 25px;
+    top: 690px;
   }
   @media screen and (max-width: 414px) {
     padding-top: 120px;
