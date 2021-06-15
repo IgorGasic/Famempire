@@ -86,7 +86,7 @@ export const Content = styled.div`
 
   @media screen and (max-width: 414px) {
     position: absolute;
-    margin-left: -55px;
+    margin-left: -30px;
     padding-top: 60px;
   }
   @media screen and (max-width: 320px) {
