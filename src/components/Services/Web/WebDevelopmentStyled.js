@@ -74,7 +74,7 @@ export const Title = styled.h3`
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-top: 335px;
+    padding-top: 355px;
     font-size: 35px;
     padding-left: 30px;
   }
@@ -218,7 +218,7 @@ export const ShitText = styled.p`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 115px;
     font-size: 25px;
-    top: 650px;
+    top: 670px;
   }
   @media screen and (max-width: 414px) {
     padding-top: 120px;

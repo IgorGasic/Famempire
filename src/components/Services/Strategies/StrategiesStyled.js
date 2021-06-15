@@ -8,7 +8,6 @@ export const MainContainer = styled.div`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     height: 100vh;
   }
-
   @media screen and (max-width: 414px) {
     flex-direction: column;
   }
@@ -67,7 +66,7 @@ export const Title = styled.h3`
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-top: 295px;
+    padding-top: 320px;
     font-size: 35px;
     padding-left: 30px;
   }
@@ -196,6 +195,7 @@ export const TextDiv = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     margin-left: 110px;
+    height: 420px;
   }
 
   @media screen and (max-width: 414px) {
