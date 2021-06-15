@@ -1,14 +1,22 @@
 export const data = [
   {
     id: 1,
-    img: "./images/contact.jpg",
+    img: "./images/Verner-Vizitka-Front.jpg",
   },
   {
     id: 2,
-    img: "./images/zgrade.jpg",
+    img: "./images/Leva-spiralna-sara.jpg.jpg",
   },
   {
     id: 3,
-    img: "./images/contact.jpg",
+    img: "./images/Logo-Konacan.jpg",
+  },
+  {
+    id: 4,
+    img: "./images/paper-logo.jpg",
+  },
+  {
+    id: 5,
+    img: "./images/PLAY-CMH.jpg",
   },
 ];

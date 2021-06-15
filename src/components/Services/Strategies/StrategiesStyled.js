@@ -33,7 +33,7 @@ export const BlueContainer = styled.div`
 `;
 export const TitleDiv = styled.div`
   left: 437px;
-  bottom: 830px;
+  bottom: 730px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
