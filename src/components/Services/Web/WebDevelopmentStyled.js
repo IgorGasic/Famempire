@@ -38,7 +38,8 @@ export const TitleDiv = styled.div`
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 340px;
+    left: 305px;
+    bottom: 650px;
   }
 
   @media screen and (max-width: 414px) {
@@ -211,9 +212,9 @@ export const ShitText = styled.p`
   top: 764px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 135px;
+    left: 105px;
     font-size: 25px;
-    top: 690px;
+    top: 600px;
   }
   @media screen and (max-width: 414px) {
     padding-top: 120px;

@@ -67,7 +67,7 @@ export const Title = styled.h3`
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-top: 285px;
+    padding-top: 295px;
     font-size: 35px;
     padding-left: 30px;
   }
@@ -135,6 +135,7 @@ export const Wrapper = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 740px;
+    bottom: 20px;
   }
 
   @media screen and (max-width: 414px) {
@@ -194,7 +195,7 @@ export const TextDiv = styled.div`
   padding-top: 100px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    margin-left: 90px;
+    margin-left: 110px;
   }
 
   @media screen and (max-width: 414px) {
