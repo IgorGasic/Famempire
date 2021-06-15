@@ -42,7 +42,7 @@ export const TitleDiv = styled.div`
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 290px;
+    left: 305px;
     bottom: 650px;
   }
 
@@ -70,7 +70,7 @@ export const Title = styled.h3`
   text-transform: uppercase;
   color: #fff;
   font-size: 40px;
-  padding: 340px 0 0 50px;
+  padding: 380px 0 0 50px;
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
