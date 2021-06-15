@@ -33,7 +33,7 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 752px;
+  left: 952px;
   bottom: 730px;
   position: absolute;
 
@@ -66,7 +66,7 @@ export const Title = styled.h3`
   text-transform: uppercase;
   color: #fff;
   font-size: 40px;
-  padding: 500px 0 0 50px;
+  padding: 450px 0 0 50px;
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -182,7 +182,7 @@ export const VideoWrapper = styled.div`
     pointer-events: none;
   }
   padding-bottom: 300px;
-  left: 900px;
+  left: 980px;
   opacity: 0;
   position: absolute;
   transition: all 0.9s linear;
