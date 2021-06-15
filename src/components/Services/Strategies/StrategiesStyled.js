@@ -32,7 +32,7 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 437px;
+  left: 422px;
   bottom: 730px;
   position: absolute;
 

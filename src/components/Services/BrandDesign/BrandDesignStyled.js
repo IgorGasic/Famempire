@@ -33,7 +33,7 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 437px;
+  left: 422px;
   bottom: 730px;
   position: absolute;
 
@@ -203,27 +203,27 @@ export const ArrowContainer = styled.div`
 
   @media screen and (max-width: 414px) {
     left: 110px;
-    top: 100px;
+    top: 150px;
     padding-bottom: 50px;
   }
   @media screen and (max-width: 375px) {
     left: 90px;
-    top: 100px;
+    top: 150px;
     padding-bottom: 50px;
   }
   @media screen and (max-width: 360px) {
     left: 85px;
-    top: 100px;
+    top: 150px;
     padding-bottom: 50px;
   }
   @media screen and (max-width: 320px) {
     left: 65px;
-    top: 80px;
+    top: 120px;
     padding-bottom: 50px;
   }
 `;
 export const Points = styled.img`
-  padding-top: 10px;
+  padding-top: 30px;
   padding-left: 48px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
