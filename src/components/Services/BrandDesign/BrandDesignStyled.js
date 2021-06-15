@@ -42,8 +42,8 @@ export const TitleDiv = styled.div`
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 340px;
-    bottom: 800px;
+    left: 290px;
+    bottom: 650px;
   }
 
   @media screen and (max-width: 414px) {
@@ -70,11 +70,11 @@ export const Title = styled.h3`
   text-transform: uppercase;
   color: #fff;
   font-size: 40px;
-  padding: 410px 0 0 50px;
+  padding: 300px 0 0 50px;
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-top: 350px;
+    padding-top: 250px;
     font-size: 35px;
     padding-left: 30px;
   }
@@ -162,7 +162,7 @@ export const ImgWrapper = styled.div`
   transition: all 0.9s linear;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 145px;
+    left: 165px;
   }
 
   @media screen and (max-width: 414px) {
@@ -209,7 +209,8 @@ export const ArrowContainer = styled.div`
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 500px;
+    left: 420px;
+    margin-top: -30px;
   }
 
   @media screen and (max-width: 414px) {
