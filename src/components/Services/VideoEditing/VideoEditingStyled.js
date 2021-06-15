@@ -5,6 +5,10 @@ export const MainContainer = styled.div`
   width: 100%;
   height: 93vh;
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    height: 100%;
+  }
+
   @media screen and (max-width: 414px) {
     flex-direction: column;
   }
@@ -33,13 +37,13 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 1082px;
+  left: 1069px;
   bottom: 690px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 715px;
-    bottom: 500px;
+    bottom: 540px;
   }
 
   @media screen and (max-width: 414px) {
@@ -70,6 +74,7 @@ export const Title = styled.h3`
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding-top: 390px;
     font-size: 35px;
     padding-left: 30px;
   }
@@ -141,6 +146,7 @@ export const ArrowContainer = styled.div`
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding-top: 550px;
     left: 860px;
   }
 
