@@ -33,7 +33,7 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 952px;
+  left: 1032px;
   bottom: 730px;
   position: absolute;
 
@@ -66,7 +66,7 @@ export const Title = styled.h3`
   text-transform: uppercase;
   color: #fff;
   font-size: 40px;
-  padding: 450px 0 0 50px;
+  padding: 465px 0 0 50px;
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -137,7 +137,7 @@ export const MainTitle = styled.h2`
 export const ArrowContainer = styled.div`
   display: flex;
   padding-top: 700px;
-  left: 1130px;
+  left: 1180px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
