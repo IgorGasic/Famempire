@@ -60,6 +60,7 @@ export const ImgWrapper = styled.div`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     max-width: 520px;
     max-height: 520px;
+    box-shadow: -41px 52px 20px 4px rgba(0, 0, 0, 0.25);
   }
 
   @media screen and (max-width: 415px) {
@@ -182,7 +183,7 @@ export const Arrow = styled.div`
   padding-left: 120px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    margin-top: 750px;
+    margin-top: 720px;
     padding-left: 90px;
   }
   @media screen and (max-width: 414px) {
@@ -203,7 +204,7 @@ export const Points = styled.img`
   padding: 730px 0 0 20px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding: 535px 0 0 20px;
+    padding: 565px 0 0 20px;
   }
 
   @media screen and (max-width: 414px) {
