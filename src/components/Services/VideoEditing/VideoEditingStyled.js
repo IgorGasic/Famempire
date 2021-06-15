@@ -66,7 +66,7 @@ export const Title = styled.h3`
   text-transform: uppercase;
   color: #fff;
   font-size: 40px;
-  padding: 400px 0 0 50px;
+  padding: 500px 0 0 50px;
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -137,7 +137,7 @@ export const MainTitle = styled.h2`
 export const ArrowContainer = styled.div`
   display: flex;
   padding-top: 700px;
-  left: 1230px;
+  left: 1130px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -182,7 +182,7 @@ export const VideoWrapper = styled.div`
     pointer-events: none;
   }
   padding-bottom: 300px;
-  left: 1050px;
+  left: 900px;
   opacity: 0;
   position: absolute;
   transition: all 0.9s linear;

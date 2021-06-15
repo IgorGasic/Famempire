@@ -65,7 +65,7 @@ export const Title = styled.h3`
   text-transform: uppercase;
   color: #fff;
   font-size: 40px;
-  padding: 530px 0 0 50px;
+  padding: 550px 0 0 50px;
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -201,7 +201,7 @@ export const ShitText = styled.p`
   width: 894px;
   font-size: 30px;
   line-height: 35px;
-  left: 200px;
+  left: 190px;
   top: 764px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
