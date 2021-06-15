@@ -33,7 +33,7 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 1032px;
+  left: 1052px;
   bottom: 730px;
   position: absolute;
 
@@ -137,7 +137,7 @@ export const MainTitle = styled.h2`
 export const ArrowContainer = styled.div`
   display: flex;
   padding-top: 700px;
-  left: 1180px;
+  left: 1200px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -202,7 +202,7 @@ export const Video = styled.div`
 `;
 
 export const Points = styled.img`
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 48px;
 
   @media screen and (max-width: 414px) {
