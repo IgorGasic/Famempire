@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   display: flex;
   width: 100%;
+  height: 93vh;
 
   @media screen and (max-width: 414px) {
     flex-direction: column;
@@ -32,8 +33,8 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 1200px;
-  bottom: 850px;
+  left: 422px;
+  bottom: 730px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -65,7 +66,7 @@ export const Title = styled.h3`
   text-transform: uppercase;
   color: #fff;
   font-size: 40px;
-  padding: 500px 0 0 50px;
+  padding: 400px 0 0 50px;
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -136,7 +137,7 @@ export const MainTitle = styled.h2`
 export const ArrowContainer = styled.div`
   display: flex;
   padding-top: 700px;
-  left: 1330px;
+  left: 1130px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -181,7 +182,7 @@ export const VideoWrapper = styled.div`
     pointer-events: none;
   }
   padding-bottom: 300px;
-  left: 1100px;
+  left: 900px;
   opacity: 0;
   position: absolute;
   transition: all 0.9s linear;
@@ -201,7 +202,7 @@ export const Video = styled.div`
 `;
 
 export const Points = styled.img`
-  padding-top: 80px;
+  padding-top: 10px;
   padding-left: 48px;
 
   @media screen and (max-width: 414px) {

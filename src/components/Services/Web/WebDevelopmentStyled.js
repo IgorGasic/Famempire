@@ -141,7 +141,7 @@ export const ImgWrapper = styled.div`
   }
   opacity: 0;
   padding-top: 100px;
-  left: 220px;
+  left: 200px;
   position: absolute;
   transition: all 0.9s linear;
 
@@ -182,7 +182,7 @@ export const Img = styled.img`
   }
 `;
 export const Points = styled.img`
-  padding-top: 63px;
+  padding-top: 10px;
   padding-left: 48px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -201,8 +201,8 @@ export const ShitText = styled.p`
   width: 894px;
   font-size: 30px;
   line-height: 35px;
-  left: 260px;
-  top: 804px;
+  left: 220px;
+  top: 764px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 135px;

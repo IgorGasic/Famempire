@@ -151,7 +151,7 @@ export const ImgWrapper = styled.div`
   }
   opacity: 0;
   padding-top: 100px;
-  left: 220px;
+  left: 200px;
   position: absolute;
   transition: all 0.9s linear;
 
