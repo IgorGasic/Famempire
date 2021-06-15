@@ -6,7 +6,7 @@ export const MainContainer = styled.div`
   height: 93vh;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    height: 100%;
+    height: 100vh;
   }
 
   @media screen and (max-width: 414px) {
@@ -19,7 +19,7 @@ export const BlueContainer = styled.div`
   background: linear-gradient(91.46deg, #0f72e5 1.21%, #0f72e5 98.76%);
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    height: 100%;
+    height: 100vh;
     width: 25%;
   }
 
@@ -210,6 +210,10 @@ export const Video = styled.div`
 export const Points = styled.img`
   padding-top: 20px;
   padding-left: 48px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding-left: 30px;
+  }
 
   @media screen and (max-width: 414px) {
     height: 0;

@@ -182,7 +182,7 @@ export const Arrow = styled.div`
   padding-left: 120px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    margin-top: 800px;
+    margin-top: 750px;
     padding-left: 90px;
   }
   @media screen and (max-width: 414px) {
@@ -203,7 +203,7 @@ export const Points = styled.img`
   padding: 730px 0 0 20px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding: 505px 0 0 20px;
+    padding: 535px 0 0 20px;
   }
 
   @media screen and (max-width: 414px) {
@@ -262,6 +262,10 @@ export const ContentArticle = styled.article`
   opacity: 0;
   position: absolute;
   transition: all 0.5s linear;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    margin-top: -30px;
+  }
 
   @media screen and (max-width: 415px) {
     flex-direction: column;
