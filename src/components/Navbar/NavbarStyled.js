@@ -63,6 +63,10 @@ export const NavIcon = styled.div`
   top: 15px;
   right: 15px;
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    top: 10px;
+  }
+
   @media screen and (max-width: 414px) {
     top: 9px;
   }

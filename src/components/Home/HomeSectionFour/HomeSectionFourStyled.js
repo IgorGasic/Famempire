@@ -58,8 +58,8 @@ export const ImgWrapper = styled.div`
   box-shadow: -81px 92px 32px 8px rgba(0, 0, 0, 0.25);
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    max-width: 520px;
-    max-height: 520px;
+    max-width: 500px;
+    max-height: 500px;
     box-shadow: -41px 52px 20px 4px rgba(0, 0, 0, 0.25);
   }
 
@@ -183,7 +183,7 @@ export const Arrow = styled.div`
   padding-left: 120px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    margin-top: 720px;
+    margin-top: 700px;
     padding-left: 90px;
   }
   @media screen and (max-width: 414px) {

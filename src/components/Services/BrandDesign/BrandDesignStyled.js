@@ -5,6 +5,10 @@ export const MainContainer = styled.div`
   width: 100%;
   height: 93vh;
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    height: 100vh;
+  }
+
   @media screen and (max-width: 414px) {
     flex-direction: column;
   }
@@ -15,7 +19,7 @@ export const BlueContainer = styled.div`
   background: linear-gradient(91.46deg, #0f72e5 1.21%, #0f72e5 98.76%);
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    height: 100%;
+    height: 100vh;
     width: 25%;
   }
 
@@ -39,6 +43,7 @@ export const TitleDiv = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 340px;
+    bottom: 800px;
   }
 
   @media screen and (max-width: 414px) {
@@ -69,6 +74,7 @@ export const Title = styled.h3`
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding-top: 350px;
     font-size: 35px;
     padding-left: 30px;
   }
@@ -173,6 +179,11 @@ export const ImgWrapper = styled.div`
 export const Img = styled.img`
   width: 868px;
   height: 492px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    width: 800px;
+    height: 440px;
+  }
 
   @media screen and (max-width: 414px) {
     width: 390px;
