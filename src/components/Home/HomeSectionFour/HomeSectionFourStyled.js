@@ -11,7 +11,7 @@ export const MainContainer = styled.div`
 `;
 export const BlueContainer = styled.div`
   position: relative;
-  height: 93vh;
+  height: 100vh;
   width: 40%;
   background: linear-gradient(91.46deg, #0f72e5 1.21%, #0f72e5 98.76%);
 
