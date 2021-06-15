@@ -39,6 +39,7 @@ export const TitleDiv = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 320px;
+    bottom: 650px;
   }
 
   @media screen and (max-width: 414px) {
@@ -64,6 +65,12 @@ export const Title = styled.h3`
   font-size: 40px;
   padding: 500px 0 0 50px;
   letter-spacing: 0.135em;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding-top: 275px;
+    font-size: 35px;
+    padding-left: 30px;
+  }
 
   @media screen and (max-width: 414px) {
     padding: 100px 0 0 50px;
@@ -151,6 +158,11 @@ export const Points = styled.img`
   padding-top: 30px;
   padding-left: 48px;
 
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding-top: 15px;
+    padding-left: 30px;
+  }
+
   @media screen and (max-width: 414px) {
     height: 0;
     width: 0;
@@ -159,6 +171,10 @@ export const Points = styled.img`
 export const ImgKonj = styled.img`
   width: 406px;
   height: 757px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    height: 690px;
+  }
 
   @media screen and (max-width: 414px) {
     width: 300px;
