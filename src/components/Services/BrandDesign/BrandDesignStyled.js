@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   display: flex;
   width: 100%;
+  height: 93vh;
 
   @media screen and (max-width: 414px) {
     flex-direction: column;
@@ -32,8 +33,8 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 459px;
-  bottom: 855px;
+  left: 437px;
+  bottom: 730px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -150,7 +151,7 @@ export const ImgWrapper = styled.div`
   }
   opacity: 0;
   padding-top: 100px;
-  left: 270px;
+  left: 220px;
   position: absolute;
   transition: all 0.9s linear;
 
@@ -222,7 +223,7 @@ export const ArrowContainer = styled.div`
   }
 `;
 export const Points = styled.img`
-  padding-top: 80px;
+  padding-top: 10px;
   padding-left: 48px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {

@@ -5,7 +5,7 @@ export const data = [
   },
   {
     id: 2,
-    img: "./images/Leva-spiralna-sara.jpg.jpg",
+    img: "./images/Leva-spiralna-sara.jpg",
   },
   {
     id: 3,
