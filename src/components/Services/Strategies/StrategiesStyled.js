@@ -122,7 +122,7 @@ export const MainTitle = styled.h2`
 export const Wrapper = styled.div`
   position: absolute;
   bottom: 0;
-  left: 785px;
+  left: 805px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 570px;
@@ -146,7 +146,7 @@ export const Wrapper = styled.div`
   }
 `;
 export const Points = styled.img`
-  padding-top: 166px;
+  padding-top: 30px;
   padding-left: 48px;
 
   @media screen and (max-width: 414px) {
@@ -171,7 +171,7 @@ export const TextDiv = styled.div`
   width: 925px;
   height: 493px;
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 150px;
   padding-left: 10px;
   padding-top: 100px;
 
