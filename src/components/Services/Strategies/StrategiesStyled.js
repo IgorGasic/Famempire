@@ -196,6 +196,8 @@ export const TextDiv = styled.div`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     margin-left: 110px;
     height: 420px;
+    margin-top: 50px;
+    padding-top: 50px;
   }
 
   @media screen and (max-width: 414px) {
