@@ -13,7 +13,7 @@ export const MainContainer = styled.div`
   }
 `;
 export const BlueContainer = styled.div`
-  height: 93vh;
+  height: 100vh;
   width: 35%;
   background: linear-gradient(91.46deg, #0f72e5 1.21%, #0f72e5 98.76%);
 
@@ -122,7 +122,7 @@ export const MainTitle = styled.h2`
 export const Wrapper = styled.div`
   position: absolute;
   bottom: 0;
-  left: 965px;
+  left: 785px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 570px;
@@ -171,7 +171,7 @@ export const TextDiv = styled.div`
   width: 925px;
   height: 493px;
   margin-top: 100px;
-  margin-left: 230px;
+  margin-left: 100px;
   padding-left: 10px;
   padding-top: 100px;
 
