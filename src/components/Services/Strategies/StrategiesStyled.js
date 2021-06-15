@@ -174,7 +174,7 @@ export const ImgKonj = styled.img`
   height: 757px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    height: 640px;
+    height: 600px;
   }
 
   @media screen and (max-width: 414px) {
