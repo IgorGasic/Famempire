@@ -133,7 +133,7 @@ export const Wrapper = styled.div`
   left: 805px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 740px;
+    left: 720px;
     bottom: 50px;
   }
 
@@ -197,6 +197,7 @@ export const TextDiv = styled.div`
     margin-left: 110px;
     height: 420px;
     margin-top: 50px;
+    padding-top: 90px;
   }
 
   @media screen and (max-width: 414px) {
