@@ -111,7 +111,7 @@ export const Instagram = styled(SiInstagram)`
   }
 `;
 export const ContetBottom = styled.div`
-  padding-top: 200px;
+  padding-top: 150px;
   display: flex;
   justify-content: center;
   align-items: center;

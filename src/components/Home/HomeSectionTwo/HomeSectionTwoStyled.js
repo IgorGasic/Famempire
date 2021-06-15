@@ -74,7 +74,7 @@ export const Img = styled.img`
   }
 `;
 export const Content = styled.div`
-  padding-left: 19.3%;
+  padding-left: 15.3%;
   justify-content: center;
   text-align: center;
   padding-top: 85px;
