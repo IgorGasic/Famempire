@@ -70,7 +70,7 @@ export const Title = styled.h3`
   text-transform: uppercase;
   color: #fff;
   font-size: 40px;
-  padding: 300px 0 0 50px;
+  padding: 340px 0 0 50px;
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -209,8 +209,8 @@ export const ArrowContainer = styled.div`
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 420px;
-    margin-top: -30px;
+    left: 430px;
+    margin-top: -40px;
   }
 
   @media screen and (max-width: 414px) {
@@ -239,7 +239,7 @@ export const Points = styled.img`
   padding-left: 48px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-left: 30px;
   }
 
