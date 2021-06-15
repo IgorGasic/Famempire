@@ -65,7 +65,7 @@ export const Title = styled.h3`
   text-transform: uppercase;
   color: #fff;
   font-size: 40px;
-  padding: 500px 0 0 50px;
+  padding: 530px 0 0 50px;
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -182,7 +182,7 @@ export const Img = styled.img`
   }
 `;
 export const Points = styled.img`
-  padding-top: 10px;
+  padding-top: 15px;
   padding-left: 48px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -201,30 +201,30 @@ export const ShitText = styled.p`
   width: 894px;
   font-size: 30px;
   line-height: 35px;
-  left: 220px;
+  left: 200px;
   top: 764px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 135px;
   }
   @media screen and (max-width: 414px) {
-    padding-top: 50px;
+    padding-top: 120px;
     width: 350px;
     left: 25px;
   }
   @media screen and (max-width: 375px) {
-    padding-top: 50px;
+    padding-top: 120px;
     width: 350px;
     left: 15px;
   }
   @media screen and (max-width: 360px) {
-    padding-top: 40px;
+    padding-top: 80px;
     width: 350px;
     left: 7px;
   }
 
   @media screen and (max-width: 320px) {
-    padding-top: 5px;
+    padding-top: 15px;
     width: 300px;
     left: 7px;
     font-size: 20px;
