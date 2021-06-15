@@ -65,7 +65,7 @@ export const Title = styled.h3`
   text-transform: uppercase;
   color: #fff;
   font-size: 40px;
-  padding: 500px 0 0 50px;
+  padding: 400px 0 0 50px;
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -193,8 +193,8 @@ export const Img = styled.img`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  padding-top: 800px;
-  left: 600px;
+  padding-top: 720px;
+  left: 550px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
