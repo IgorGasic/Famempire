@@ -50,8 +50,8 @@ export const MainTitle = styled.h2`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  padding-top: 800px;
-  left: 1340px;
+  padding-top: 400px;
+  left: 820px;
   position: absolute;
 `;
 export const VideoWrapper = styled.div`
@@ -70,7 +70,7 @@ export const VideoWrapper = styled.div`
   padding-top: 100px;
   width: 868px;
   height: 492px;
-  left: 1010px;
+  left: 710px;
   opacity: 0;
   position: absolute;
   transition: all 0.9s linear;
@@ -78,4 +78,45 @@ export const VideoWrapper = styled.div`
 export const Points = styled.img`
   padding-top: 46px;
   padding-left: 48px;
+`;
+export const Proba = styled.div`
+  position: absolute;
+  left: 300px;
+  bottom: 900px;
+`;
+export const NekiNaslov = styled.h2`
+  text-align: center;
+  font-size: 36px;
+  line-height: 42px;
+  padding-bottom: 20px;
+`;
+export const NekiText = styled.p`
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  width: 375px;
+`;
+
+export const Nesto = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1300px;
+  top: 140px;
+`;
+
+export const Textara = styled.div`
+  3D Animations
+  font-size: 36px;
+  line-height: 42px;
+  Video commercials with 
+  a touch of 3D magick.
+  Unlimited 
+  possibilities.
+  Anything can be created.
+  width: 336;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center
+  video i slika 486x246
 `;

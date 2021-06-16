@@ -17,6 +17,10 @@ import {
   ArrowLeft,
   ArrowRight,
   Points,
+  Proba,
+  NekiNaslov,
+  NekiText,
+  Nesto,
 } from "./VisualisationStyled";
 
 const Visualisation = () => {
@@ -53,32 +57,42 @@ const Visualisation = () => {
           <TitleDiv>
             <MainTitle>Portfolio</MainTitle>
           </TitleDiv>
-          {data.map((item, itemIndex) => {
-            const { id, url } = item;
-            let position = "NextVideo";
-            if (itemIndex === index) {
-              position = "ActiveVideo";
-            }
-            if (index === 0 && itemIndex === service.length - 1) {
-              position = "LastVideo";
-            }
+          <Proba>
+            {data.map((item, itemIndex) => {
+              const { id, url } = item;
+              let position = "NextVideo";
+              if (itemIndex === index) {
+                position = "ActiveVideo";
+              }
+              if (index === 0 && itemIndex === service.length - 1) {
+                position = "LastVideo";
+              }
 
-            return (
-              <VideoWrapper className={position} key={id}>
-                <ReactPlayer url={url} width="868px" height="492px" />
-              </VideoWrapper>
-            );
-          })}
-          <ArrowContainer>
-            <ArrowLeft
-              src={dugmeLevo}
-              onClick={() => setIndex(index - 1)}
-            ></ArrowLeft>
-            <ArrowRight
-              src={dugmeDesno}
-              onClick={() => setIndex(index + 1)}
-            ></ArrowRight>
-          </ArrowContainer>
+              return (
+                <VideoWrapper className={position} key={id}>
+                  <ReactPlayer url={url} width="420px" height="300px" />
+                </VideoWrapper>
+              );
+            })}
+            <Nesto>
+              <NekiNaslov>3D Rendering</NekiNaslov>
+              <NekiText>
+                The real world conditions are never perfect, but to
+                berepresentative we need our product to shine.
+                <br /> This is where 3D steps in.
+              </NekiText>
+            </Nesto>
+            <ArrowContainer>
+              <ArrowLeft
+                src={dugmeLevo}
+                onClick={() => setIndex(index - 1)}
+              ></ArrowLeft>
+              <ArrowRight
+                src={dugmeDesno}
+                onClick={() => setIndex(index + 1)}
+              ></ArrowRight>
+            </ArrowContainer>
+          </Proba>
         </ContentContainer>
       </MainContainer>
     </>

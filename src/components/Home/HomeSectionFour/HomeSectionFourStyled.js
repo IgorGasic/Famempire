@@ -184,7 +184,7 @@ export const Arrow = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     margin-top: 690px;
-    padding-left: 90px;
+    padding-left: 70px;
   }
   @media screen and (max-width: 414px) {
     margin-top: 790px;
