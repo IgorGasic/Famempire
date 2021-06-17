@@ -74,7 +74,7 @@ export const Title = styled.h3`
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-top: 210px;
+    padding-top: 320px;
     font-size: 35px;
     padding-left: 30px;
   }

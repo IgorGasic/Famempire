@@ -71,7 +71,7 @@ export const Title = styled.h3`
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-top: 310px;
+    padding-top: 250px;
     font-size: 35px;
     padding-left: 30px;
   }
@@ -87,6 +87,12 @@ export const Text = styled.p`
   padding: 20px 0 0 50px;
   font-size: 30px;
   max-width: 570px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
 `;
 export const ContentContainer = styled.div`
   display: flex;
@@ -155,7 +161,8 @@ export const VideoWrapper = styled.div`
   transition: all 0.9s linear;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 650px;
+    padding-top: 250px;
+    left: 100px;
   }
 `;
 
