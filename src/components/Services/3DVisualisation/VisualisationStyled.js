@@ -155,6 +155,10 @@ export const ArrowContainer = styled.div`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 220px;
     top: ${({ gornji }) => (gornji ? "555px" : "435px")};
+
+    @media screen and (max-width: 414px) {
+      left: 20px;
+    }
   }
 `;
 export const Video = styled.div`
@@ -182,7 +186,7 @@ export const VideoWrapper = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     padding-top: 280px;
-    left: 120px;
+    left: 12px;
   }
 `;
 
@@ -290,8 +294,8 @@ export const Img = styled.img`
   }
 
   @media screen and (max-width: 414px) {
-    width: 390px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
   }
   @media screen and (max-width: 375px) {
     width: 350px;
@@ -318,6 +322,5 @@ export const Proba1 = styled.div`
     bottom: 10px;
     display: flex;
     flex-direction: column;
-  }
   }
 `;
