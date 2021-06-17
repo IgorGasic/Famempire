@@ -150,7 +150,7 @@ export const ArrowContainer = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 220px;
-    top: ${({ gornji }) => (gornji ? "520px" : "435px")};
+    top: ${({ gornji }) => (gornji ? "555px" : "435px")};
   }
 `;
 export const Video = styled.div`
@@ -177,7 +177,7 @@ export const VideoWrapper = styled.div`
   transition: all 0.9s linear;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-top: 250px;
+    padding-top: 280px;
     left: 120px;
   }
 `;
@@ -234,7 +234,7 @@ export const Nesto = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 600px;
-    top: ${({ gornji }) => (gornji ? "300px" : "180px")};
+    top: ${({ gornji }) => (gornji ? "300px" : "215px")};
   }
 `;
 
