@@ -150,7 +150,7 @@ export const ArrowContainer = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 220px;
-    top: ${({ gornji }) => (gornji ? "500px" : "435px")};
+    top: ${({ gornji }) => (gornji ? "520px" : "435px")};
   }
 `;
 export const Video = styled.div`
@@ -234,7 +234,7 @@ export const Nesto = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 600px;
-    top: ${({ gornji }) => (gornji ? "270px" : "140px")};
+    top: ${({ gornji }) => (gornji ? "300px" : "180px")};
   }
 `;
 
