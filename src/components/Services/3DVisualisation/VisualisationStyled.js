@@ -209,6 +209,8 @@ export const Proba = styled.div`
   }
   @media screen and (max-width: 414px) {
     bottom: 10px;
+    display: flex;
+    flex-direction: column;
   }
 `;
 export const NekiNaslov = styled.h2`
@@ -231,7 +233,6 @@ export const NekiText = styled.p`
     font-size: 24px;
   }
 `;
-
 export const Nesto = styled.div`
   display: flex;
   flex-direction: column;
@@ -315,6 +316,8 @@ export const Proba1 = styled.div`
   }
   @media screen and (max-width: 414px) {
     bottom: 10px;
-    }
+    display: flex;
+    flex-direction: column;
+  }
   }
 `;
