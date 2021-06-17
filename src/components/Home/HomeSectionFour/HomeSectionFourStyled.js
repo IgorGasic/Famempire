@@ -80,6 +80,7 @@ export const ImgWrapper = styled.div`
     height: 350px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: none;
   }
   @media screen and (max-width: 320px) {
     width: 250px;
@@ -201,7 +202,7 @@ export const Arrow = styled.div`
   }
   @media screen and (max-width: 360px) {
     padding-left: 100px;
-    margin-top: 780px;
+    margin-top: 805px;
   }
   @media screen and (max-width: 320px) {
     padding-left: 100px;
