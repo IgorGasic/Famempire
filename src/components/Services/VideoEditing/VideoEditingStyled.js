@@ -55,7 +55,7 @@ export const TitleDiv = styled.div`
   }
   @media screen and (max-width: 375px) {
     left: 22px;
-    bottom: 150px;
+    bottom: 110px;
   }
   @media screen and (max-width: 360px) {
     left: 15px;
@@ -63,7 +63,7 @@ export const TitleDiv = styled.div`
   }
   @media screen and (max-width: 320px) {
     left: 18px;
-    bottom: 15px;
+    bottom: 2px;
   }
 `;
 export const Title = styled.h3`

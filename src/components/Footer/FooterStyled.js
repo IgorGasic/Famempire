@@ -125,6 +125,9 @@ export const ContetBottom = styled.div`
   @media only screen and (max-width: 400px) {
     padding-top: 50px;
   }
+  @media only screen and (max-width: 375px) {
+    padding-top: 35px;
+  }
   @media only screen and (max-width: 360px) {
     padding-top: 35px;
   }

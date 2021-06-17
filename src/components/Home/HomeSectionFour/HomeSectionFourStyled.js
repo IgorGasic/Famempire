@@ -241,7 +241,7 @@ export const Points = styled.img`
     margin-left: 322px;
     height: 40px;
     width: 40px;
-    margin-top: 5px;
+    margin-top: -2px;
   }
   @media screen and (max-width: 360px) {
     margin-left: 310px;
