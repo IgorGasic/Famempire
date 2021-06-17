@@ -12,7 +12,7 @@ export const BlueContainer = styled.div`
 `;
 export const TitleDiv = styled.div`
   left: 1200px;
-  bottom: 910px;
+  bottom: 810px;
   position: absolute;
 `;
 export const Title = styled.h3`
@@ -51,8 +51,8 @@ export const MainTitle = styled.h2`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  padding-top: ${({ dugme }) => (dugme ? "360px" : "420px")};
-  left: ${({ dugme }) => (dugme ? "800px" : "800px")};
+  padding-top: ${({ dugme }) => (dugme ? "360px" : "435px")};
+  left: ${({ dugme }) => (dugme ? "700px" : "700px")};
   position: absolute;
 `;
 export const Video = styled.div`
@@ -105,7 +105,7 @@ export const Nesto = styled.div`
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 900px;
+  left: 1050px;
   top: ${({ gornji }) => (gornji ? "110px" : "140px")};
 `;
 
