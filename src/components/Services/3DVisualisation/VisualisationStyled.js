@@ -52,7 +52,7 @@ export const MainTitle = styled.h2`
 export const ArrowContainer = styled.div`
   display: flex;
   top: ${({ dugme }) => (dugme ? "435px" : "435px")};
-  left: ${({ dugme }) => (dugme ? "620px" : "620px")};
+  left: ${({ dugme }) => (dugme ? "635px" : "620px")};
   position: absolute;
 `;
 export const Video = styled.div`
@@ -106,7 +106,7 @@ export const Nesto = styled.div`
   flex-direction: column;
   position: absolute;
   left: 1050px;
-  top: ${({ gornji }) => (gornji ? "130px" : "160px")};
+  top: ${({ gornji }) => (gornji ? "150px" : "160px")};
 `;
 
 export const ImgWrapper = styled.div`
