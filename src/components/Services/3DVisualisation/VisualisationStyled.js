@@ -73,7 +73,7 @@ export const VideoWrapper = styled.div`
     pointer-events: none;
   }
   padding-top: 50px;
-  left: 570px;
+  left: 510px;
   opacity: 0;
   position: absolute;
   transition: all 0.9s linear;
@@ -105,7 +105,7 @@ export const Nesto = styled.div`
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 1300px;
+  left: 900px;
   top: ${({ gornji }) => (gornji ? "110px" : "140px")};
 `;
 
@@ -123,7 +123,7 @@ export const ImgWrapper = styled.div`
     pointer-events: none;
   }
   opacity: 0;
-  left: 570px;
+  left: 510px;
   bottom: -425px;
   position: absolute;
   transition: all 0.9s linear;
