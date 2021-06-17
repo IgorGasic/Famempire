@@ -19,7 +19,7 @@ export const Title = styled.h3`
   text-transform: uppercase;
   color: #fff;
   font-size: 40px;
-  padding: 500px 0 0 50px;
+  padding: 425px 0 0 50px;
   letter-spacing: 0.135em;
 `;
 export const Text = styled.p`
