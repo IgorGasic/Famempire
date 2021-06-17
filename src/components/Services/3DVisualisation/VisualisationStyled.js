@@ -11,8 +11,8 @@ export const BlueContainer = styled.div`
   background: linear-gradient(91.46deg, #0f72e5 1.21%, #0f72e5 98.76%);
 `;
 export const TitleDiv = styled.div`
-  left: 1200px;
-  bottom: 810px;
+  left: 1100px;
+  bottom: 820px;
   position: absolute;
 `;
 export const Title = styled.h3`
@@ -52,7 +52,7 @@ export const MainTitle = styled.h2`
 export const ArrowContainer = styled.div`
   display: flex;
   padding-top: ${({ dugme }) => (dugme ? "360px" : "435px")};
-  left: ${({ dugme }) => (dugme ? "700px" : "700px")};
+  left: ${({ dugme }) => (dugme ? "620px" : "620px")};
   position: absolute;
 `;
 export const Video = styled.div`
