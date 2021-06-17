@@ -99,6 +99,11 @@ export const Img = styled.img`
     width: 300px;
     height: 300px;
   }
+  @media screen and (max-width: 360px) {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
   @media screen and (max-width: 320px) {
     width: 250px;
     height: 250px;

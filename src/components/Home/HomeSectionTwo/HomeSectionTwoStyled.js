@@ -89,6 +89,10 @@ export const Content = styled.div`
     margin-left: -30px;
     padding-top: 60px;
   }
+
+  @media screen and (max-width: 360px) {
+    margin-left: 0;
+  }
   @media screen and (max-width: 320px) {
     margin-left: -50px;
   }

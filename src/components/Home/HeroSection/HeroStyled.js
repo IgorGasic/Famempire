@@ -13,6 +13,11 @@ export const HeroContainer = styled.div`
     height: 100%;
     padding-bottom: 50px;
   }
+  @media screen and (max-width: 360px) {
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+  }
 
   @media screen and (max-width: 320px) {
     height: 100%;

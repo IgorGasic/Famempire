@@ -4,6 +4,7 @@ export const FirstSection = styled.section``;
 export const SecondSection = styled.section``;
 export const ThirdSection = styled.section``;
 export const FourthSection = styled.section``;
+
 export const AboutRow = styled.div`
   display: flex;
   margin: 0 -15px -15px -15px;
@@ -14,6 +15,9 @@ export const AboutRow = styled.div`
       direction ? "column-reverse" : "column"};
     width: 380px;
     margin: 0;
+  }
+  @media screen and (max-width: 360px) {
+    margin-left: 40px;
   }
 
   @media screen and (max-width: 400px) {
