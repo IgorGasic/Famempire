@@ -136,6 +136,10 @@ export const ArrowContainer = styled.div`
   top: 435px;
   left: 635px;
   position: absolute;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 200px;
+  }
 `;
 export const Video = styled.div`
   position: relative;
@@ -273,4 +277,8 @@ export const Proba1 = styled.div`
   position: absolute;
   left: 300px;
   bottom: 500px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 50px;
+  }
 `;
