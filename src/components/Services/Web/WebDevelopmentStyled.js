@@ -59,7 +59,7 @@ export const TitleDiv = styled.div`
   }
   @media screen and (max-width: 360px) {
     left: 15px;
-    bottom: 130px;
+    bottom: 110px;
   }
   @media screen and (max-width: 320px) {
     left: 18px;
@@ -231,7 +231,7 @@ export const ShitText = styled.p`
     left: 15px;
   }
   @media screen and (max-width: 360px) {
-    padding-top: 80px;
+    padding-top: 100px;
     width: 350px;
     left: 7px;
   }

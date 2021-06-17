@@ -16,9 +16,6 @@ export const AboutRow = styled.div`
     width: 380px;
     margin: 0;
   }
-  @media screen and (max-width: 360px) {
-    margin-left: 40px;
-  }
 
   @media screen and (max-width: 400px) {
     flex-direction: ${({ direction }) =>
@@ -67,6 +64,9 @@ export const Title = styled.h3`
     padding-bottom: 40px;
     text-align: center;
   }
+  @media screen and (max-width: 360px) {
+    margin-left: 20px;
+  }
 `;
 export const TextWrapper = styled.div`
   max-width: 740px;
@@ -80,6 +80,9 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 400px) {
     width: 300px;
     padding-bottom: 0;
+  }
+  @media screen and (max-width: 360px) {
+    margin-left: 30px;
   }
 `;
 export const Text = styled.p`
