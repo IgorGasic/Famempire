@@ -4,16 +4,64 @@ export const MainContainer = styled.div`
   display: flex;
   width: 100%;
   height: 93vh;
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    height: 100vh;
+  }
+  @media screen and (max-width: 414px) {
+    flex-direction: column;
+  }
 `;
 export const BlueContainer = styled.div`
   height: 93vh;
   width: 35%;
   background: linear-gradient(91.46deg, #0f72e5 1.21%, #0f72e5 98.76%);
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    height: 100vh;
+    width: 25%;
+  }
+  @media screen and (max-width: 414px) {
+    width: 100%;
+    height: 45vh;
+  }
+  @media screen and (max-width: 375px) {
+    width: 100%;
+    height: 55vh;
+  }
+  @media screen and (max-width: 320px) {
+    width: 100%;
+    height: 65vh;
+  }
 `;
 export const TitleDiv = styled.div`
   left: 1100px;
   bottom: 820px;
   position: absolute;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 305px;
+    bottom: 650px;
+  }
+
+  @media screen and (max-width: 414px) {
+    left: 20px;
+    bottom: 200px;
+  }
+  @media screen and (max-width: 411px) {
+    bottom: 270px;
+  }
+  @media screen and (max-width: 375px) {
+    left: 22px;
+    bottom: 70px;
+  }
+  @media screen and (max-width: 360px) {
+    left: 15px;
+    bottom: 80px;
+  }
+  @media screen and (max-width: 320px) {
+    left: 18px;
+    bottom: 5px;
+  }
 `;
 export const Title = styled.h3`
   text-transform: uppercase;
@@ -21,6 +69,18 @@ export const Title = styled.h3`
   font-size: 40px;
   padding: 425px 0 0 50px;
   letter-spacing: 0.135em;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding-top: 310px;
+    font-size: 35px;
+    padding-left: 30px;
+  }
+  @media screen and (max-width: 414px) {
+    padding: 50px 0 0 10px;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 5px;
+  }
 `;
 export const Text = styled.p`
   color: #fff;
@@ -32,6 +92,12 @@ export const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  justify-content: center;
+  position: relative;
+
+  @media screen and (max-width: 414px) {
+    position: static;
+  }
 `;
 export const ArrowLeft = styled.img`
   margin-right: 80px;
@@ -48,6 +114,16 @@ export const MainTitle = styled.h2`
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 0.45em;
+
+  @media screen and (max-width: 414px) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 35px;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 30px;
+  }
 `;
 export const ArrowContainer = styled.div`
   display: flex;
@@ -148,8 +224,8 @@ export const Img = styled.img`
   height: 290px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    width: 800px;
-    height: 440px;
+    width: 380px;
+    height: 290px;
   }
 
   @media screen and (max-width: 414px) {
