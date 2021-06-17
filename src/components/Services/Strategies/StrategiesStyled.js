@@ -47,7 +47,7 @@ export const TitleDiv = styled.div`
   }
   @media screen and (max-width: 375px) {
     left: 25px;
-    bottom: 720px;
+    bottom: 300px;
   }
   @media screen and (max-width: 360px) {
     left: 15px;
@@ -210,7 +210,7 @@ export const TextDiv = styled.div`
   @media screen and (max-width: 375px) {
     width: 350px;
     margin-left: 0;
-    padding-top: 550px;
+    padding-top: 1250px;
     padding-left: 0;
   }
   @media screen and (max-width: 360px) {

@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
 import dugmeDesno from "../../../images/dugmeDesno.svg";
 import dugmeLevo from "../../../images/dugmeLevo.svg";
+import "./player.css";
 import points from "../../../images/tackice.svg";
-import { data } from "../../../data/3dVisualisation";
+import { videoData, imgData } from "../../../data/3dVisualisation";
 import {
   MainContainer,
   BlueContainer,
@@ -21,11 +22,17 @@ import {
   NekiNaslov,
   NekiText,
   Nesto,
+  ImgWrapper,
+  Img,
+  Proba1,
+  Video,
 } from "./VisualisationStyled";
 
 const Visualisation = () => {
-  const [service] = useState(data);
+  const [service] = useState(videoData);
+  const [imgService] = useState(imgData);
   const [index, setIndex] = useState(0);
+  const [index1, setIndex1] = useState(0);
 
   useEffect(() => {
     const lastIndex = service.length - 1;
@@ -36,6 +43,16 @@ const Visualisation = () => {
       setIndex(0);
     }
   }, [index, service]);
+
+  useEffect(() => {
+    const lastIndex1 = imgService.length - 1;
+    if (index1 < 0) {
+      setIndex1(lastIndex1);
+    }
+    if (index1 > lastIndex1) {
+      setIndex1(0);
+    }
+  }, [index1, imgService]);
 
   return (
     <>
@@ -58,7 +75,7 @@ const Visualisation = () => {
             <MainTitle>Portfolio</MainTitle>
           </TitleDiv>
           <Proba>
-            {data.map((item, itemIndex) => {
+            {videoData.map((item, itemIndex) => {
               const { id, url } = item;
               let position = "NextVideo";
               if (itemIndex === index) {
@@ -67,11 +84,46 @@ const Visualisation = () => {
               if (index === 0 && itemIndex === service.length - 1) {
                 position = "LastVideo";
               }
-
               return (
                 <VideoWrapper className={position} key={id}>
-                  <ReactPlayer url={url} width="420px" height="300px" />
+                  <Video>
+                    <ReactPlayer url={url} className="react-player" />
+                  </Video>
                 </VideoWrapper>
+              );
+            })}
+            <Nesto gornji>
+              <NekiNaslov>3D Animations</NekiNaslov>
+              <NekiText>
+                Video commercials with a touch of 3D magick. Unlimited
+                possibilities. Anything can be created.
+              </NekiText>
+            </Nesto>
+            <ArrowContainer dugme>
+              <ArrowLeft
+                src={dugmeLevo}
+                onClick={() => setIndex(index - 1)}
+              ></ArrowLeft>
+              <ArrowRight
+                src={dugmeDesno}
+                onClick={() => setIndex(index + 1)}
+              ></ArrowRight>
+            </ArrowContainer>
+          </Proba>
+          <Proba1>
+            {imgData.map((item, lastIndex1) => {
+              const { id, img } = item;
+              let position = "NextPicture";
+              if (lastIndex1 === index1) {
+                position = "ActivePicture";
+              }
+              if (index1 === 0 && lastIndex1 === imgService.length - 1) {
+                position = "LastPicture";
+              }
+              return (
+                <ImgWrapper className={position} key={id}>
+                  <Img src={img} />
+                </ImgWrapper>
               );
             })}
             <Nesto>
@@ -85,14 +137,14 @@ const Visualisation = () => {
             <ArrowContainer>
               <ArrowLeft
                 src={dugmeLevo}
-                onClick={() => setIndex(index - 1)}
+                onClick={() => setIndex1(index1 - 1)}
               ></ArrowLeft>
               <ArrowRight
                 src={dugmeDesno}
-                onClick={() => setIndex(index + 1)}
+                onClick={() => setIndex1(index1 + 1)}
               ></ArrowRight>
             </ArrowContainer>
-          </Proba>
+          </Proba1>
         </ContentContainer>
       </MainContainer>
     </>

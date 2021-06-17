@@ -11,7 +11,7 @@ export const BlueContainer = styled.div`
 `;
 export const TitleDiv = styled.div`
   left: 1200px;
-  bottom: 850px;
+  bottom: 910px;
   position: absolute;
 `;
 export const Title = styled.h3`
@@ -50,9 +50,13 @@ export const MainTitle = styled.h2`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  padding-top: 400px;
-  left: 820px;
+  padding-top: ${({ dugme }) => (dugme ? "360px" : "420px")};
+  left: ${({ dugme }) => (dugme ? "800px" : "800px")};
   position: absolute;
+`;
+export const Video = styled.div`
+  position: relative;
+  padding-top: 50.25%;
 `;
 export const VideoWrapper = styled.div`
   &.ActiveVideo {
@@ -67,14 +71,13 @@ export const VideoWrapper = styled.div`
     transform: translateX(-100%);
     pointer-events: none;
   }
-  padding-top: 100px;
-  width: 868px;
-  height: 492px;
-  left: 710px;
+  padding-top: 50px;
+  left: 670px;
   opacity: 0;
   position: absolute;
   transition: all 0.9s linear;
 `;
+
 export const Points = styled.img`
   padding-top: 46px;
   padding-left: 48px;
@@ -102,21 +105,71 @@ export const Nesto = styled.div`
   flex-direction: column;
   position: absolute;
   left: 1300px;
-  top: 140px;
+  top: ${({ gornji }) => (gornji ? "110px" : "140px")};
 `;
 
-export const Textara = styled.div`
-  3D Animations
-  font-size: 36px;
-  line-height: 42px;
-  Video commercials with 
-  a touch of 3D magick.
-  Unlimited 
-  possibilities.
-  Anything can be created.
-  width: 336;
-  font-size: 30px;
-  line-height: 35px;
-  text-align: center
-  video i slika 486x246
+export const ImgWrapper = styled.div`
+  &.ActivePicture {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  &.LastPicture {
+    transform: translateX(-100%);
+    pointer-events: none;
+  }
+  &.NextPicture {
+    transform: translateX(-100%);
+    pointer-events: none;
+  }
+  opacity: 0;
+  left: 670px;
+  bottom: -410px;
+  position: absolute;
+  transition: all 0.9s linear;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 165px;
+  }
+
+  @media screen and (max-width: 414px) {
+    top: 500px;
+    left: 12px;
+  }
+  @media screen and (max-width: 375px) {
+    left: 15px;
+  }
+  @media screen and (max-width: 375px) {
+    left: 10px;
+  }
+`;
+export const Img = styled.img`
+  width: 450px;
+  height: 290px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    width: 800px;
+    height: 440px;
+  }
+
+  @media screen and (max-width: 414px) {
+    width: 390px;
+    height: 250px;
+  }
+  @media screen and (max-width: 375px) {
+    width: 350px;
+    height: 250px;
+  }
+  @media screen and (max-width: 360px) {
+    width: 340px;
+    height: 230px;
+  }
+  @media screen and (max-width: 320px) {
+    width: 300px;
+    height: 200px;
+  }
+`;
+export const Proba1 = styled.div`
+  position: absolute;
+  left: 300px;
+  bottom: 500px;
 `;

@@ -55,7 +55,7 @@ export const TitleDiv = styled.div`
   }
   @media screen and (max-width: 375px) {
     left: 22px;
-    bottom: 110px;
+    bottom: 70px;
   }
   @media screen and (max-width: 360px) {
     left: 15px;
