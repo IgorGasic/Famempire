@@ -110,11 +110,21 @@ export const ArrowLeft = styled.img`
   height: 56px;
   width: 56px;
   cursor: pointer;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    height: 40px;
+    width: 40px;
+  }
 `;
 export const ArrowRight = styled.img`
   height: 56px;
   width: 56px;
   cursor: pointer;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    height: 40px;
+    width: 40px;
+  }
 `;
 export const MainTitle = styled.h2`
   font-size: 50px;
@@ -166,7 +176,7 @@ export const VideoWrapper = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     padding-top: 250px;
-    left: 20px;
+    left: 120px;
   }
 `;
 
@@ -214,6 +224,7 @@ export const Nesto = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 600px;
+    top: ${({ gornji }) => (gornji ? "210px" : "160px")};
   }
 `;
 
@@ -237,7 +248,7 @@ export const ImgWrapper = styled.div`
   transition: all 0.9s linear;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 20px;
+    left: 120px;
   }
 
   @media screen and (max-width: 414px) {
