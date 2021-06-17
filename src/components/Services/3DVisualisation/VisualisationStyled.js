@@ -51,7 +51,7 @@ export const MainTitle = styled.h2`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  top: ${({ dugme }) => (dugme ? "360px" : "535px")};
+  top: ${({ dugme }) => (dugme ? "535px" : "360px")};
   left: ${({ dugme }) => (dugme ? "620px" : "620px")};
   position: absolute;
 `;
@@ -106,7 +106,7 @@ export const Nesto = styled.div`
   flex-direction: column;
   position: absolute;
   left: 1050px;
-  top: ${({ gornji }) => (gornji ? "110px" : "140px")};
+  top: ${({ gornji }) => (gornji ? "130px" : "160px")};
 `;
 
 export const ImgWrapper = styled.div`
