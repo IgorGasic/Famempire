@@ -73,7 +73,7 @@ export const VideoWrapper = styled.div`
     pointer-events: none;
   }
   padding-top: 50px;
-  left: 670px;
+  left: 570px;
   opacity: 0;
   position: absolute;
   transition: all 0.9s linear;
@@ -123,8 +123,8 @@ export const ImgWrapper = styled.div`
     pointer-events: none;
   }
   opacity: 0;
-  left: 670px;
-  bottom: -410px;
+  left: 570px;
+  bottom: -425px;
   position: absolute;
   transition: all 0.9s linear;
 
