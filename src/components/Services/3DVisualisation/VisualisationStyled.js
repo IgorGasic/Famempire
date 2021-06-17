@@ -112,6 +112,7 @@ export const ArrowLeft = styled.img`
   cursor: pointer;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    margin-right: 60px;
     height: 40px;
     width: 40px;
   }
@@ -148,7 +149,7 @@ export const ArrowContainer = styled.div`
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 200px;
+    left: 220px;
   }
 `;
 export const Video = styled.div`
@@ -224,7 +225,7 @@ export const Nesto = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 600px;
-    top: ${({ gornji }) => (gornji ? "210px" : "160px")};
+    top: ${({ gornji }) => (gornji ? "270px" : "160px")};
   }
 `;
 
@@ -267,8 +268,8 @@ export const Img = styled.img`
   height: 290px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    width: 380px;
-    height: 290px;
+    width: 340px;
+    height: 220px;
   }
 
   @media screen and (max-width: 414px) {
