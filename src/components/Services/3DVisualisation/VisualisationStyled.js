@@ -51,8 +51,8 @@ export const MainTitle = styled.h2`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  top: ${({ dugme }) => (dugme ? "435px" : "435px")};
-  left: ${({ dugme }) => (dugme ? "635px" : "620px")};
+  top: 435px;
+  left: 635px;
   position: absolute;
 `;
 export const Video = styled.div`

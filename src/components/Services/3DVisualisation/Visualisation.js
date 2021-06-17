@@ -99,7 +99,7 @@ const Visualisation = () => {
                 possibilities. Anything can be created.
               </NekiText>
             </Nesto>
-            <ArrowContainer dugme>
+            <ArrowContainer>
               <ArrowLeft
                 src={dugmeLevo}
                 onClick={() => setIndex(index - 1)}
