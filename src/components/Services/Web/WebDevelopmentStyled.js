@@ -193,7 +193,7 @@ export const Img = styled.img`
   }
 `;
 export const Points = styled.img`
-  padding-top: 15px;
+  padding-top: 30px;
   padding-left: 48px;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
