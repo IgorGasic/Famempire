@@ -37,6 +37,7 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoader(true);
 
     emailjs
       .sendForm(
@@ -75,6 +76,7 @@ const ContactUs = () => {
                 placeholder="First Name*"
                 name="name"
                 autoComplete="off"
+                required
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
@@ -82,13 +84,16 @@ const ContactUs = () => {
                 placeholder="Last Name*"
                 name="lastname"
                 autoComplete="off"
+                required
                 value={lastname}
                 onChange={(e) => setLastname(e.target.value)}
               />
               <Input
                 placeholder="Email*"
                 name="email"
+                type="email"
                 autoComplete="off"
+                required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
@@ -96,6 +101,7 @@ const ContactUs = () => {
                 placeholder="Company*"
                 name="company"
                 autoComplete="off"
+                required
                 value={company}
                 onChange={(e) => setCompany(e.target.value)}
               />
@@ -107,6 +113,7 @@ const ContactUs = () => {
                 placeholder="What can we do for you?*"
                 autoComplete="off"
                 name="msg"
+                required
                 value={msg}
                 onChange={(e) => setMsg(e.target.value)}
               />

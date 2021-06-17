@@ -19,6 +19,7 @@ const Hero = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoader(true);
 
     emailjs
       .sendForm(
