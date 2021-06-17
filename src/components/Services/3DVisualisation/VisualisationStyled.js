@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   display: flex;
   width: 100%;
+  height: 93vh;
 `;
 export const BlueContainer = styled.div`
   height: 93vh;
