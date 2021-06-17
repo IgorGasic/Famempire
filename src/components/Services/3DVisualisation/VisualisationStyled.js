@@ -150,6 +150,7 @@ export const ArrowContainer = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 220px;
+    top: ${({ gornji }) => (gornji ? "500px" : "435px")};
   }
 `;
 export const Video = styled.div`
@@ -208,12 +209,20 @@ export const NekiNaslov = styled.h2`
   font-size: 36px;
   line-height: 42px;
   padding-bottom: 20px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    font-size: 30px;
+  }
 `;
 export const NekiText = styled.p`
   font-size: 30px;
   line-height: 35px;
   text-align: center;
   width: 375px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    font-size: 24px;
+  }
 `;
 
 export const Nesto = styled.div`
@@ -225,7 +234,7 @@ export const Nesto = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 600px;
-    top: ${({ gornji }) => (gornji ? "270px" : "160px")};
+    top: ${({ gornji }) => (gornji ? "270px" : "140px")};
   }
 `;
 
