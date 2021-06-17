@@ -153,11 +153,24 @@ export const VideoWrapper = styled.div`
   opacity: 0;
   position: absolute;
   transition: all 0.9s linear;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 650px;
+  }
 `;
 
 export const Points = styled.img`
   padding-top: 46px;
   padding-left: 48px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  @media screen and (max-width: 414px) {
+    height: 0;
+    width: 0;
+  }
 `;
 export const Proba = styled.div`
   position: absolute;
@@ -205,7 +218,7 @@ export const ImgWrapper = styled.div`
   transition: all 0.9s linear;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 165px;
+    left: 65px;
   }
 
   @media screen and (max-width: 414px) {
