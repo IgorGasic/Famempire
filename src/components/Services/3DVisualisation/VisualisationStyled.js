@@ -166,7 +166,7 @@ export const VideoWrapper = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     padding-top: 250px;
-    left: 10px;
+    left: 20px;
   }
 `;
 
@@ -187,6 +187,10 @@ export const Proba = styled.div`
   position: absolute;
   left: 300px;
   bottom: 900px;
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 50px;
+  }
 `;
 export const NekiNaslov = styled.h2`
   text-align: center;
@@ -209,7 +213,7 @@ export const Nesto = styled.div`
   top: ${({ gornji }) => (gornji ? "150px" : "160px")};
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 400px;
+    left: 600px;
   }
 `;
 
@@ -233,7 +237,7 @@ export const ImgWrapper = styled.div`
   transition: all 0.9s linear;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 5px;
+    left: 20px;
   }
 
   @media screen and (max-width: 414px) {
