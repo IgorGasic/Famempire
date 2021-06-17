@@ -65,7 +65,7 @@ export const Title = styled.h3`
     text-align: center;
   }
   @media screen and (max-width: 360px) {
-    margin-left: 20px;
+    margin-left: 15px;
   }
 `;
 export const TextWrapper = styled.div`

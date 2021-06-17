@@ -59,7 +59,7 @@ export const TitleDiv = styled.div`
   }
   @media screen and (max-width: 360px) {
     left: 15px;
-    bottom: 110px;
+    bottom: 95px;
   }
   @media screen and (max-width: 320px) {
     left: 18px;

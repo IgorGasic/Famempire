@@ -103,7 +103,8 @@ export const Img = styled.img`
   }
   @media screen and (max-width: 360px) {
     width: 300px;
-    height: 350px;
+    height: 300px;
+    object-fit: contain;
   }
   @media screen and (max-width: 320px) {
     width: 250px;
@@ -200,7 +201,7 @@ export const Arrow = styled.div`
   }
   @media screen and (max-width: 360px) {
     padding-left: 100px;
-    margin-top: 760px;
+    margin-top: 780px;
   }
   @media screen and (max-width: 320px) {
     padding-left: 100px;
