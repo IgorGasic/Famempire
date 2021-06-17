@@ -94,7 +94,7 @@ export const Content = styled.div`
     margin-left: -20px;
   }
   @media screen and (max-width: 320px) {
-    margin-left: -35px;
+    margin-left: -27px;
   }
 `;
 export const Text = styled.p`

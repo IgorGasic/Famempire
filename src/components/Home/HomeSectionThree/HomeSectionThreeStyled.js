@@ -65,6 +65,6 @@ export const Button = styled.button`
     margin-left: 60px;
   }
   @media screen and (max-width: 320px) {
-    margin-left: 60px;
+    margin-left: 70px;
   }
 `;
