@@ -207,13 +207,13 @@ export const Proba = styled.div`
   position: absolute;
   left: 300px;
   bottom: 900px;
+  display: flex;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 50px;
   }
   @media screen and (max-width: 414px) {
     bottom: 10px;
-    display: flex;
     flex-direction: column;
   }
 `;
@@ -247,6 +247,9 @@ export const Nesto = styled.div`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 600px;
     top: ${({ gornji }) => (gornji ? "300px" : "215px")};
+  }
+  @media screen and (max-width: 414px) {
+    left: 20px;
   }
 `;
 
@@ -314,13 +317,13 @@ export const Proba1 = styled.div`
   position: absolute;
   left: 300px;
   bottom: 500px;
+  display: flex;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 50px;
   }
   @media screen and (max-width: 414px) {
     bottom: 10px;
-    display: flex;
     flex-direction: column;
   }
 `;
