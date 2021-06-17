@@ -77,7 +77,7 @@ export const Title = styled.h3`
   }
   @media screen and (max-width: 414px) {
     padding: 50px 0 0 10px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     padding-right: 5px;
   }
@@ -92,6 +92,10 @@ export const Text = styled.p`
     font-size: 25px;
     padding-left: 30px;
     padding-right: 10px;
+  }
+  @media screen and (max-width: 414px) {
+    font-size: 20px;
+    text-align: center;
   }
 `;
 export const ContentContainer = styled.div`
@@ -203,6 +207,9 @@ export const Proba = styled.div`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 50px;
   }
+  @media screen and (max-width: 414px) {
+    bottom: 10px;
+  }
 `;
 export const NekiNaslov = styled.h2`
   text-align: center;
@@ -305,5 +312,9 @@ export const Proba1 = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 50px;
+  }
+  @media screen and (max-width: 414px) {
+    bottom: 10px;
+    }
   }
 `;
