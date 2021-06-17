@@ -63,7 +63,7 @@ export const TitleDiv = styled.div`
   }
   @media screen and (max-width: 320px) {
     left: 18px;
-    bottom: 50px;
+    bottom: 35px;
   }
 `;
 export const Title = styled.h3`

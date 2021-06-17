@@ -33,7 +33,7 @@ export const BlueContainer = styled.div`
   }
   @media screen and (max-width: 320px) {
     width: 100%;
-    height: 65vh;
+    height: 68vh;
   }
 `;
 export const TitleDiv = styled.div`
@@ -63,7 +63,7 @@ export const TitleDiv = styled.div`
   }
   @media screen and (max-width: 320px) {
     left: 18px;
-    bottom: 50px;
+    bottom: 35px;
   }
 `;
 export const Title = styled.h3`
