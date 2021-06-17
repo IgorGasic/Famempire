@@ -71,7 +71,7 @@ export const Title = styled.h3`
   letter-spacing: 0.135em;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    padding-top: 250px;
+    padding-top: 260px;
     font-size: 35px;
     padding-left: 30px;
   }
@@ -162,7 +162,7 @@ export const VideoWrapper = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     padding-top: 250px;
-    left: 100px;
+    left: 10px;
   }
 `;
 
@@ -203,6 +203,10 @@ export const Nesto = styled.div`
   position: absolute;
   left: 1050px;
   top: ${({ gornji }) => (gornji ? "150px" : "160px")};
+
+  @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    left: 400px;
+  }
 `;
 
 export const ImgWrapper = styled.div`
@@ -225,7 +229,7 @@ export const ImgWrapper = styled.div`
   transition: all 0.9s linear;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
-    left: 65px;
+    left: 5px;
   }
 
   @media screen and (max-width: 414px) {
