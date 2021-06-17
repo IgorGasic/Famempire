@@ -51,7 +51,7 @@ export const MainTitle = styled.h2`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  top: ${({ dugme }) => (dugme ? "360px" : "435px")};
+  top: ${({ dugme }) => (dugme ? "360px" : "535px")};
   left: ${({ dugme }) => (dugme ? "620px" : "620px")};
   position: absolute;
 `;
@@ -72,7 +72,7 @@ export const VideoWrapper = styled.div`
     transform: translateX(-100%);
     pointer-events: none;
   }
-  padding-top: 50px;
+  padding-top: 100px;
   left: 510px;
   opacity: 0;
   position: absolute;

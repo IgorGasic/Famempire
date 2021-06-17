@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
 import dugmeDesno from "../../../images/dugmeDesno.svg";
 import dugmeLevo from "../../../images/dugmeLevo.svg";
-import "./player.css";
+import "./player1.css";
 import points from "../../../images/tackice.svg";
 import { videoData, imgData } from "../../../data/3dVisualisation";
 import {
@@ -87,7 +87,7 @@ const Visualisation = () => {
               return (
                 <VideoWrapper className={position} key={id}>
                   <Video>
-                    <ReactPlayer url={url} className="react-player" />
+                    <ReactPlayer url={url} className="react-player1" />
                   </Video>
                 </VideoWrapper>
               );

@@ -22,8 +22,8 @@
 }
 @media screen and (max-width: 360px){
     .react-player{
-        width: 310px;
-        height: 310px;
+        width: 350px;
+        height: 350px;
         padding-right: 15px;
     }
 }
