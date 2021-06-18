@@ -150,7 +150,7 @@ export const MainTitle = styled.h2`
 export const ArrowContainer = styled.div`
   display: flex;
   top: ${({ gornji }) => (gornji ? "415px" : "435px")};
-  left: 145px;
+  left: 135px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -206,6 +206,9 @@ export const VideoWrapper = styled.div`
     left: 35px;
     padding-top: 280px;
   }
+  @media screen and (max-width: 375px) {
+    left: 10px;
+  }
   @media screen and (max-width: 360px) {
     left: 10px;
   }
@@ -251,6 +254,9 @@ export const NekiNaslov = styled.h2`
   @media screen and (max-width: 414px) {
     font-size: 25px;
   }
+  @media screen and (max-width: 375px) {
+    padding-bottom: 10px;
+  }
   @media screen and (max-width: 360px) {
     padding-bottom: 5px;
   }
@@ -295,7 +301,8 @@ export const Nesto = styled.div`
     top: ${({ gornji }) => (gornji ? "520px" : "1120px")};
   }
   @media screen and (max-width: 375px) {
-    left: 5px;
+    left: 1px;
+    top: ${({ gornji }) => (gornji ? "520px" : "1120px")};
   }
   @media screen and (max-width: 360px) {
     left: 5px;
