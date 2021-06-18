@@ -291,10 +291,10 @@ export const Nesto = styled.div`
   }
   @media screen and (max-width: 360px) {
     left: 5px;
-    top: ${({ gornji }) => (gornji ? "530px" : "1140px")};
+    top: ${({ gornji }) => (gornji ? "550px" : "1160px")};
   }
   @media screen and (max-width: 320px) {
-    top: ${({ gornji }) => (gornji ? "525px" : "1130px")};
+    top: ${({ gornji }) => (gornji ? "535px" : "1150px")};
   }
 `;
 
