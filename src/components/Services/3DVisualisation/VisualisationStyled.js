@@ -222,7 +222,7 @@ export const Points = styled.img`
 `;
 export const Proba = styled.div`
   position: absolute;
-  left: 300px;
+  left: 20px;
   bottom: 900px;
   display: flex;
 
@@ -361,7 +361,7 @@ export const Img = styled.img`
 `;
 export const Proba1 = styled.div`
   position: absolute;
-  left: 300px;
+  left: 20px;
   bottom: 500px;
   display: flex;
 
