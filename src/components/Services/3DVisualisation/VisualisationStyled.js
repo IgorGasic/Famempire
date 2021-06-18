@@ -149,8 +149,8 @@ export const MainTitle = styled.h2`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  top: 205px;
-  left: 235px;
+  top: 405px;
+  left: 195px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -226,7 +226,7 @@ export const Points = styled.img`
 `;
 export const Proba = styled.div`
   position: absolute;
-  left: 100px;
+  left: 140px;
   bottom: 900px;
   display: flex;
 
@@ -368,7 +368,7 @@ export const Img = styled.img`
 `;
 export const Proba1 = styled.div`
   position: absolute;
-  left: 100px;
+  left: 140px;
   bottom: 500px;
   display: flex;
 
