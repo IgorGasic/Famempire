@@ -149,7 +149,7 @@ export const MainTitle = styled.h2`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  top: 75px;
+  top: 205px;
   left: 235px;
   position: absolute;
 
@@ -161,6 +161,10 @@ export const ArrowContainer = styled.div`
     left: 110px;
     top: ${({ gornji }) => (gornji ? "1025px" : "1555px")};
     padding-bottom: ${({ gornji }) => (gornji ? "10px" : "55px")};
+  }
+  @media screen and (max-width: 375px) {
+    left: 100px;
+    top: ${({ gornji }) => (gornji ? "1075px" : "1605px")};
   }
   @media screen and (max-width: 360px) {
     left: 90px;
@@ -222,7 +226,7 @@ export const Points = styled.img`
 `;
 export const Proba = styled.div`
   position: absolute;
-  left: 20px;
+  left: 100px;
   bottom: 900px;
   display: flex;
 
@@ -289,6 +293,9 @@ export const Nesto = styled.div`
   @media screen and (max-width: 414px) {
     left: 20px;
     top: ${({ gornji }) => (gornji ? "520px" : "1120px")};
+  }
+  @media screen and (max-width: 375px) {
+    left: 5px;
   }
   @media screen and (max-width: 360px) {
     left: 5px;
@@ -361,7 +368,7 @@ export const Img = styled.img`
 `;
 export const Proba1 = styled.div`
   position: absolute;
-  left: 20px;
+  left: 100px;
   bottom: 500px;
   display: flex;
 
