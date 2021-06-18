@@ -246,6 +246,12 @@ export const NekiNaslov = styled.h2`
   @media screen and (max-width: 414px) {
     font-size: 25px;
   }
+  @media screen and (max-width: 360px) {
+    padding-bottom: 5px;
+  }
+  @media screen and (max-width: 320px) {
+    padding-bottom: 10px;
+  }
 `;
 export const NekiText = styled.p`
   font-size: 30px;
@@ -261,9 +267,11 @@ export const NekiText = styled.p`
   }
   @media screen and (max-width: 360px) {
     width: 350px;
+    line-height: 15px;
   }
   @media screen and (max-width: 320px) {
     width: 300px;
+    line-height: 15px;
   }
 `;
 export const Nesto = styled.div`
