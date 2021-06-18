@@ -149,8 +149,8 @@ export const MainTitle = styled.h2`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  top: 405px;
-  left: 195px;
+  top: 455px;
+  left: 155px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
