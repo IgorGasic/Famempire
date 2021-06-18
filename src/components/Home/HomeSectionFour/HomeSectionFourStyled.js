@@ -112,6 +112,7 @@ export const Img = styled.img`
     height: 250px;
   }
 `;
+
 export const Content = styled.div`
   margin-top: 350px;
   margin-left: 100px;

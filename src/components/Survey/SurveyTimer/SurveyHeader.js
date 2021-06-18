@@ -29,7 +29,7 @@ const getTimeDays = (time) => (time / daySeconds) | 0;
 
 export function SurveyTimer() {
   const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
-  const endTime = stratTime + 43248; // use UNIX timestamp in seconds
+  const endTime = stratTime + 34644; // use UNIX timestamp in seconds
 
   const remainingTime = endTime - stratTime;
   const days = Math.ceil(remainingTime / daySeconds);
