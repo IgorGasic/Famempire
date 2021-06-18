@@ -42,10 +42,9 @@ export const TitleDiv = styled.div`
     left: 305px;
     bottom: 650px;
   }
-
   @media screen and (max-width: 414px) {
     left: 20px;
-    bottom: 100px;
+    bottom: 150px;
   }
   @media screen and (max-width: 411px) {
     bottom: 270px;
@@ -159,8 +158,8 @@ export const ArrowContainer = styled.div`
   }
   @media screen and (max-width: 414px) {
     left: 110px;
-    top: ${({ gornji }) => (gornji ? "985px" : "1555px")};
-    padding-bottom: 50px;
+    top: ${({ gornji }) => (gornji ? "1010px" : "1555px")};
+    padding-bottom: ${({ gornji }) => (gornji ? "10px" : "55px")};
   }
 `;
 export const Video = styled.div`
@@ -263,7 +262,7 @@ export const Nesto = styled.div`
   }
   @media screen and (max-width: 414px) {
     left: 20px;
-    top: ${({ gornji }) => (gornji ? "480px" : "1120px")};
+    top: ${({ gornji }) => (gornji ? "500px" : "1120px")};
   }
 `;
 
