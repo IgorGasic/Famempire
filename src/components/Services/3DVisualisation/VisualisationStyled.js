@@ -155,7 +155,7 @@ export const ArrowContainer = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 220px;
-    top: ${({ gornji }) => (gornji ? "555px" : "435px")};
+    top: ${({ gornji }) => (gornji ? "535px" : "435px")};
   }
   @media screen and (max-width: 414px) {
     left: 110px;
@@ -164,10 +164,10 @@ export const ArrowContainer = styled.div`
   }
   @media screen and (max-width: 375px) {
     left: 100px;
-    top: ${({ gornji }) => (gornji ? "1075px" : "1605px")};
+    top: ${({ gornji }) => (gornji ? "1060px" : "1605px")};
   }
   @media screen and (max-width: 360px) {
-    left: 90px;
+    left: 80px;
     top: ${({ gornji }) => (gornji ? "1050px" : "1585px")};
   }
   @media screen and (max-width: 320px) {
@@ -302,7 +302,7 @@ export const Nesto = styled.div`
   }
   @media screen and (max-width: 375px) {
     left: 1px;
-    top: ${({ gornji }) => (gornji ? "520px" : "1120px")};
+    top: ${({ gornji }) => (gornji ? "520px" : "1140px")};
   }
   @media screen and (max-width: 360px) {
     left: 5px;
