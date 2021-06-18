@@ -162,8 +162,8 @@ export const ArrowContainer = styled.div`
     padding-bottom: ${({ gornji }) => (gornji ? "10px" : "55px")};
   }
   @media screen and (max-width: 360px) {
-    left: 80px;
-    top: ${({ gornji }) => (gornji ? "1055px" : "1585px")};
+    left: 100px;
+    top: ${({ gornji }) => (gornji ? "1050px" : "1585px")};
   }
 `;
 export const Video = styled.div`
@@ -273,6 +273,7 @@ export const Nesto = styled.div`
   }
   @media screen and (max-width: 360px) {
     left: 0;
+    margin-left: -10px;
   }
 `;
 
