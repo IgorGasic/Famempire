@@ -44,7 +44,7 @@ export const TitleDiv = styled.div`
   }
   @media screen and (max-width: 414px) {
     left: 20px;
-    bottom: 350px;
+    bottom: 300px;
   }
   @media screen and (max-width: 411px) {
     bottom: 270px;
@@ -161,6 +161,10 @@ export const ArrowContainer = styled.div`
     top: ${({ gornji }) => (gornji ? "1025px" : "1555px")};
     padding-bottom: ${({ gornji }) => (gornji ? "10px" : "55px")};
   }
+  @media screen and (max-width: 360px) {
+    left: 65px;
+    top: ${({ gornji }) => (gornji ? "1055px" : "1585px")};
+  }
 `;
 export const Video = styled.div`
   position: relative;
@@ -192,6 +196,9 @@ export const VideoWrapper = styled.div`
   @media screen and (max-width: 414px) {
     left: 35px;
     padding-top: 280px;
+  }
+  @media screen and (max-width: 360px) {
+    left: 10px;
   }
 `;
 
@@ -263,6 +270,9 @@ export const Nesto = styled.div`
   @media screen and (max-width: 414px) {
     left: 20px;
     top: ${({ gornji }) => (gornji ? "520px" : "1120px")};
+  }
+  @media screen and (max-width: 360px) {
+    left: 5px;
   }
 `;
 
