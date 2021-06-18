@@ -35,7 +35,7 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 300px;
+  left: 350px;
   bottom: 820px;
   position: absolute;
 
@@ -150,7 +150,7 @@ export const MainTitle = styled.h2`
 export const ArrowContainer = styled.div`
   display: flex;
   top: 435px;
-  left: 635px;
+  left: 235px;
   position: absolute;
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -189,7 +189,7 @@ export const VideoWrapper = styled.div`
     pointer-events: none;
   }
   padding-top: 100px;
-  left: 510px;
+  left: 170px;
   opacity: 0;
   position: absolute;
   transition: all 0.9s linear;
@@ -279,7 +279,7 @@ export const Nesto = styled.div`
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 1050px;
+  left: 570px;
   top: ${({ gornji }) => (gornji ? "150px" : "160px")};
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
@@ -313,7 +313,7 @@ export const ImgWrapper = styled.div`
     pointer-events: none;
   }
   opacity: 0;
-  left: 510px;
+  left: 170px;
   bottom: -425px;
   position: absolute;
   transition: all 0.9s linear;
