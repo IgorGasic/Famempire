@@ -155,7 +155,7 @@ export const ArrowContainer = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 220px;
-    top: ${({ gornji }) => (gornji ? "535px" : "435px")};
+    top: ${({ gornji }) => (gornji ? "544px" : "435px")};
   }
   @media screen and (max-width: 414px) {
     left: 110px;
