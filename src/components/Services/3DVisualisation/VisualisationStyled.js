@@ -44,7 +44,7 @@ export const TitleDiv = styled.div`
   }
   @media screen and (max-width: 414px) {
     left: 20px;
-    bottom: 300px;
+    bottom: 285px;
   }
   @media screen and (max-width: 411px) {
     bottom: 270px;
@@ -55,7 +55,7 @@ export const TitleDiv = styled.div`
   }
   @media screen and (max-width: 360px) {
     left: 15px;
-    bottom: 80px;
+    bottom: 85px;
   }
   @media screen and (max-width: 320px) {
     left: 18px;
@@ -162,7 +162,7 @@ export const ArrowContainer = styled.div`
     padding-bottom: ${({ gornji }) => (gornji ? "10px" : "55px")};
   }
   @media screen and (max-width: 360px) {
-    left: 65px;
+    left: 80px;
     top: ${({ gornji }) => (gornji ? "1055px" : "1585px")};
   }
 `;
@@ -272,7 +272,7 @@ export const Nesto = styled.div`
     top: ${({ gornji }) => (gornji ? "520px" : "1120px")};
   }
   @media screen and (max-width: 360px) {
-    left: 5px;
+    left: 0;
   }
 `;
 
