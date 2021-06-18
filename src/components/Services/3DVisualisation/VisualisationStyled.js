@@ -162,7 +162,7 @@ export const ArrowContainer = styled.div`
     padding-bottom: ${({ gornji }) => (gornji ? "10px" : "55px")};
   }
   @media screen and (max-width: 360px) {
-    left: 100px;
+    left: 90px;
     top: ${({ gornji }) => (gornji ? "1050px" : "1585px")};
   }
 `;
@@ -254,6 +254,9 @@ export const NekiText = styled.p`
   }
   @media screen and (max-width: 414px) {
     font-size: 20px;
+  }
+  @media screen and (max-width: 360px) {
+    width: 350px;
   }
 `;
 export const Nesto = styled.div`
