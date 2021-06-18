@@ -35,7 +35,7 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 350px;
+  left: 370px;
   bottom: 820px;
   position: absolute;
 
@@ -149,7 +149,7 @@ export const MainTitle = styled.h2`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  top: 435px;
+  top: 75px;
   left: 235px;
   position: absolute;
 
@@ -189,7 +189,7 @@ export const VideoWrapper = styled.div`
     pointer-events: none;
   }
   padding-top: 100px;
-  left: 170px;
+  left: 10px;
   opacity: 0;
   position: absolute;
   transition: all 0.9s linear;
@@ -313,7 +313,7 @@ export const ImgWrapper = styled.div`
     pointer-events: none;
   }
   opacity: 0;
-  left: 170px;
+  left: 10px;
   bottom: -425px;
   position: absolute;
   transition: all 0.9s linear;
