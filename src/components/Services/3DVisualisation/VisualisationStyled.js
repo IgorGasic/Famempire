@@ -4,6 +4,7 @@ export const MainContainer = styled.div`
   display: flex;
   width: 100%;
   height: 93vh;
+
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     height: 100vh;
   }
@@ -34,7 +35,7 @@ export const BlueContainer = styled.div`
   }
 `;
 export const TitleDiv = styled.div`
-  left: 1100px;
+  left: 300px;
   bottom: 820px;
   position: absolute;
 
