@@ -149,7 +149,7 @@ export const MainTitle = styled.h2`
 `;
 export const ArrowContainer = styled.div`
   display: flex;
-  top: ${({ gornji }) => (gornji ? "405px" : "435px")};
+  top: ${({ gornji }) => (gornji ? "400px" : "435px")};
   left: 155px;
   position: absolute;
 
