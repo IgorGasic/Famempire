@@ -72,7 +72,8 @@ export const Title = styled.h3`
   }
 
   @media screen and (max-width: 414px) {
-    padding: 100px 0 0 50px;
+    padding: 100px 0 0 95px;
+    font-size: 30px;
   }
   @media screen and (max-width: 375px) {
     margin-left: -20px;
@@ -101,6 +102,7 @@ export const Text = styled.p`
   @media screen and (max-width: 414px) {
     text-align: center;
     margin-right: 50px;
+    font-size: 20px;
   }
   @media screen and (max-width: 320px) {
     font-size: 25px;

@@ -22,7 +22,7 @@ export const BlueContainer = styled.div`
   }
   @media screen and (max-width: 414px) {
     width: 100%;
-    height: 45vh;
+    height: 60vh;
   }
   @media screen and (max-width: 375px) {
     width: 100%;
@@ -45,7 +45,7 @@ export const TitleDiv = styled.div`
 
   @media screen and (max-width: 414px) {
     left: 20px;
-    bottom: 200px;
+    bottom: 100px;
   }
   @media screen and (max-width: 411px) {
     bottom: 270px;
@@ -96,6 +96,7 @@ export const Text = styled.p`
   @media screen and (max-width: 414px) {
     font-size: 20px;
     text-align: center;
+    padding-right: 50px;
   }
 `;
 export const ContentContainer = styled.div`
@@ -155,10 +156,11 @@ export const ArrowContainer = styled.div`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     left: 220px;
     top: ${({ gornji }) => (gornji ? "555px" : "435px")};
-
-    @media screen and (max-width: 414px) {
-      left: 20px;
-    }
+  }
+  @media screen and (max-width: 414px) {
+    left: 110px;
+    top: ${({ gornji }) => (gornji ? "985px" : "1555px")};
+    padding-bottom: 50px;
   }
 `;
 export const Video = styled.div`
@@ -186,7 +188,11 @@ export const VideoWrapper = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     padding-top: 280px;
-    left: 12px;
+    left: 120px;
+  }
+  @media screen and (max-width: 414px) {
+    left: 35px;
+    padding-top: 280px;
   }
 `;
 
@@ -215,6 +221,7 @@ export const Proba = styled.div`
   @media screen and (max-width: 414px) {
     bottom: 10px;
     flex-direction: column;
+    position: static;
   }
 `;
 export const NekiNaslov = styled.h2`
@@ -226,6 +233,9 @@ export const NekiNaslov = styled.h2`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     font-size: 30px;
   }
+  @media screen and (max-width: 414px) {
+    font-size: 25px;
+  }
 `;
 export const NekiText = styled.p`
   font-size: 30px;
@@ -235,6 +245,9 @@ export const NekiText = styled.p`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     font-size: 24px;
+  }
+  @media screen and (max-width: 414px) {
+    font-size: 20px;
   }
 `;
 export const Nesto = styled.div`
@@ -250,6 +263,7 @@ export const Nesto = styled.div`
   }
   @media screen and (max-width: 414px) {
     left: 20px;
+    top: ${({ gornji }) => (gornji ? "480px" : "1120px")};
   }
 `;
 
@@ -277,8 +291,8 @@ export const ImgWrapper = styled.div`
   }
 
   @media screen and (max-width: 414px) {
-    top: 500px;
-    left: 12px;
+    top: 1345px;
+    left: 55px;
   }
   @media screen and (max-width: 375px) {
     left: 15px;
@@ -325,5 +339,6 @@ export const Proba1 = styled.div`
   @media screen and (max-width: 414px) {
     bottom: 10px;
     flex-direction: column;
+    position: static;
   }
 `;
