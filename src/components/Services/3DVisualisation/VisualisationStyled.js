@@ -267,11 +267,11 @@ export const NekiText = styled.p`
   }
   @media screen and (max-width: 360px) {
     width: 350px;
-    line-height: 15px;
+    line-height: 25px;
   }
   @media screen and (max-width: 320px) {
     width: 300px;
-    line-height: 15px;
+    line-height: 25px;
   }
 `;
 export const Nesto = styled.div`
