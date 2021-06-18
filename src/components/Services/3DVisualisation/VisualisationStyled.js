@@ -165,6 +165,10 @@ export const ArrowContainer = styled.div`
     left: 90px;
     top: ${({ gornji }) => (gornji ? "1050px" : "1585px")};
   }
+  @media screen and (max-width: 320px) {
+    left: 70px;
+    top: ${({ gornji }) => (gornji ? "1030px" : "1555px")};
+  }
 `;
 export const Video = styled.div`
   position: relative;
@@ -258,6 +262,9 @@ export const NekiText = styled.p`
   @media screen and (max-width: 360px) {
     width: 350px;
   }
+  @media screen and (max-width: 320px) {
+    width: 300px;
+  }
 `;
 export const Nesto = styled.div`
   display: flex;
@@ -275,8 +282,7 @@ export const Nesto = styled.div`
     top: ${({ gornji }) => (gornji ? "520px" : "1120px")};
   }
   @media screen and (max-width: 360px) {
-    left: 0;
-    margin-left: -10px;
+    left: 5px;
   }
 `;
 
