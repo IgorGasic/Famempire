@@ -22,7 +22,7 @@ export const BlueContainer = styled.div`
   }
   @media screen and (max-width: 414px) {
     width: 100%;
-    height: 60vh;
+    height: 45vh;
   }
   @media screen and (max-width: 375px) {
     width: 100%;

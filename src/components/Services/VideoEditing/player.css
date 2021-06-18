@@ -23,8 +23,7 @@
     .react-player{
         max-width: 350px;
         max-height: 350px;
-        padding-right: 15px;
-     
+        padding-right: 15px; 
     }
 }
 @media screen and (max-width: 320px){
