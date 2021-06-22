@@ -10,7 +10,7 @@ export const AboutRow = styled.div`
   margin: 0 -15px -15px -15px;
   align-items: center;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     flex-direction: ${({ direction }) =>
       direction ? "column-reverse" : "column"};
     width: 380px;
@@ -37,7 +37,7 @@ export const AboutColumn = styled.div`
   padding: 0 15px;
   flex-basis: 50%;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     padding: 0;
   }
 
@@ -50,7 +50,7 @@ export const Title = styled.h3`
   font-size: 55px;
   text-transform: uppercase;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     font-size: 45px;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -73,7 +73,7 @@ export const TextWrapper = styled.div`
   padding-top: 0;
   padding-bottom: 60px;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     max-width: 400px;
   }
 
@@ -88,7 +88,7 @@ export const TextWrapper = styled.div`
 export const Text = styled.p`
   font-size: 35px;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     width: 400px;
     font-size: 20px;
     text-align: center;
@@ -105,7 +105,7 @@ export const ImgWrapper = styled.div`
   justify-content: flex-end;
   padding-right: 0;
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 425px) {
     margin-left: 0;
     margin: 20px 0;
     justify-content: center;
@@ -124,7 +124,7 @@ export const Img = styled.img`
   max-width: ${({ pobednik }) => (pobednik ? "700px" : "600px")};
   padding-bottom: ${({ pobednik }) => (pobednik ? "100px" : "0")};
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 425px) {
     height: 250px;
     width: ${({ pobednik }) => (pobednik ? "370px" : "320px")};
     padding-bottom: 0;

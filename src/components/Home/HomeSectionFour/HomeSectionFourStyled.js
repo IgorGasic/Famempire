@@ -4,7 +4,7 @@ export const MainContainer = styled.div`
   display: flex;
   width: 100%;
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 425px) {
     flex-direction: column;
     width: 100%;
   }
@@ -15,7 +15,13 @@ export const BlueContainer = styled.div`
   width: 40%;
   background: linear-gradient(91.46deg, #0f72e5 1.21%, #0f72e5 98.76%);
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 425px) {
+    height: 10vh;
+    width: 100%;
+    background: #fff;
+  }
+
+  @media screen and (max-width: 414px) {
     width: 100%;
     height: 20vh;
     position: static;
@@ -28,6 +34,11 @@ export const Title = styled.h2`
   padding: 20px 20px;
   color: #fff;
 
+  @media screen and (max-width: 425px) {
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+  }
   @media screen and (max-width: 415px) {
     font-size: 35px;
   }
@@ -43,7 +54,7 @@ export const ContentContainer = styled.div`
   overflow: hidden;
   display: flex;
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 425px) {
     height: 100%;
   }
 `;
@@ -61,6 +72,15 @@ export const ImgWrapper = styled.div`
     max-width: 500px;
     max-height: 500px;
     box-shadow: -41px 52px 20px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  @media screen and (max-width: 425px) {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: auto;
+    box-shadow: -21px 52px 12px 2px rgba(0, 0, 0, 0.25);
   }
 
   @media screen and (max-width: 415px) {
@@ -98,6 +118,10 @@ export const Img = styled.img`
     max-height: 520px;
   }
 
+  @media screen and (max-width: 425px) {
+    width: 320px;
+    height: 320px;
+  }
   @media screen and (max-width: 415px) {
     width: 300px;
     height: 300px;
@@ -121,6 +145,10 @@ export const Content = styled.div`
     margin-left: 50px;
   }
 
+  @media screen and (max-width: 425px) {
+    margin-top: 60px;
+    margin-left: 50px;
+  }
   @media screen and (max-width: 415px) {
     margin-top: 60px;
     margin-left: 50px;
@@ -147,7 +175,7 @@ export const TextTwo = styled.p`
   color: #000000;
   padding-bottom: 20px;
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 425px) {
     font-size: 40px;
   }
 `;
@@ -195,6 +223,12 @@ export const Arrow = styled.div`
     margin-top: 690px;
     padding-left: 70px;
   }
+
+  @media screen and (max-width: 425px) {
+    margin-top: 740px;
+    padding-left: 135px;
+  }
+
   @media screen and (max-width: 414px) {
     margin-top: 790px;
   }
@@ -215,6 +249,11 @@ export const Points = styled.img`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     padding: 565px 0 0 20px;
+  }
+
+  @media screen and (max-width: 425px) {
+    width: 0;
+    height: 0;
   }
 
   @media screen and (max-width: 414px) {
@@ -278,7 +317,7 @@ export const ContentArticle = styled.article`
     margin-top: -30px;
   }
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 425px) {
     flex-direction: column;
   }
 `;

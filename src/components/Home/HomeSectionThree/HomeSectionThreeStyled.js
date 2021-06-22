@@ -8,7 +8,7 @@ export const ContainerContet = styled.div`
     margin-bottom: 100px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     height: 100%;
   }
 `;
@@ -17,7 +17,7 @@ export const Title = styled.h2`
   text-transform: uppercase;
   padding: 100px;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     font-size: 30px;
     padding: 50px 0;
     text-align: center;
@@ -28,7 +28,7 @@ export const Content = styled.div`
   margin-left: auto;
   margin-right: auto;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -37,7 +37,7 @@ export const Text = styled.p`
   font-size: 35px;
   padding-bottom: ${({ last }) => (last ? "120px" : "50px")};
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     font-size: 25px;
     text-align: center;
     padding-bottom: 50px;
@@ -51,6 +51,13 @@ export const Button = styled.button`
   font-size: 35px;
   padding: 5px 10px;
   cursor: pointer;
+
+  @media screen and (max-width: 425px) {
+    margin-left: 115px;
+    margin-bottom: 80px;
+    padding: 15px 30px;
+    font-size: 20px;
+  }
 
   @media screen and (max-width: 414px) {
     margin-left: 105px;

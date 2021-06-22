@@ -18,7 +18,7 @@ export const Nav = styled.nav`
     position: sticky;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     position: sticky;
     width: 100%;
     height: 60px;
@@ -39,7 +39,7 @@ export const NavLink = styled(Link)`
   padding-left: 15px;
   text-transform: uppercase;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     padding-left: 0;
     position: absolute;
     top: 5px;
@@ -52,7 +52,7 @@ export const NavLogo = styled.img`
   height: 60px;
   padding-right: 10px;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     width: 50px;
     height: 50px;
   }
@@ -65,6 +65,10 @@ export const NavIcon = styled.div`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     top: 10px;
+  }
+
+  @media screen and (max-width: 425px) {
+    top: 8px;
   }
 
   @media screen and (max-width: 414px) {
@@ -80,6 +84,11 @@ export const Bars = styled(CgLoadbarSound)`
   height: 60px;
   width: 60px;
   cursor: pointer;
+
+  @media screen and (max-width: 425px) {
+    height: 45px;
+    width: 45px;
+  }
 
   @media screen and (max-width: 414px) {
     height: 40px;
@@ -98,6 +107,13 @@ export const X = styled(FaTimes)`
   cursor: pointer;
   margin-top: 10px;
   margin-right: 10px;
+
+  @media screen and (max-width: 425px) {
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
 
   @media screen and (max-width: 414px) {
     height: 30px;
@@ -133,7 +149,7 @@ export const NavMenu = styled.ul`
     height: 70vh;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     top: ${({ click }) => (click ? "60px" : "-1000px")};
     height: 100vh;
     justify-content: flex-start;
@@ -161,6 +177,11 @@ export const NavLinks = styled(Link)`
 
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     padding-bottom: 40px;
+  }
+
+  @media screen and (max-width: 425px) {
+    font-size: 35px;
+    padding-bottom: 25px;
   }
 
   @media screen and (max-width: 414px) {

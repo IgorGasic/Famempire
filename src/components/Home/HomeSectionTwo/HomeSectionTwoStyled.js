@@ -20,6 +20,10 @@ export const LogoTitle = styled.div`
   margin-left: 20px;
   display: flex;
 
+  @media screen and (max-width: 425px) {
+    height: 60px;
+  }
+
   @media screen and (max-width: 414px) {
     height: 60px;
   }
@@ -69,10 +73,6 @@ export const Img = styled.img`
   }
 
   @media screen and (max-width: 425px) {
-    left: 0;
-  }
-
-  @media screen and (max-width: 414px) {
     width: 0;
     height: 0;
   }
@@ -86,6 +86,12 @@ export const Content = styled.div`
   @media screen and (max-width: 1600px) {
     padding-left: 8.7%;
     padding-top: 50px;
+  }
+
+  @media screen and (max-width: 425px) {
+    position: absolute;
+    margin-left: -30px;
+    padding-top: 60px;
   }
 
   @media screen and (max-width: 414px) {
@@ -106,7 +112,7 @@ export const Text = styled.p`
   padding-top: 50px;
   color: #fff;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     font-size: 30px;
   }
 `;
@@ -128,7 +134,7 @@ export const Button = styled.button`
   font-size: 35px;
   cursor: pointer;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     font-size: 20px;
     width: 200px;
   }

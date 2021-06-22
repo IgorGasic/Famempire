@@ -10,7 +10,7 @@ export const Text = styled.p`
   padding-bottom: 50px;
   padding-top: ${({ title }) => (title ? "50px" : "0")};
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 425px) {
     font-size: 25px;
   }
 `;

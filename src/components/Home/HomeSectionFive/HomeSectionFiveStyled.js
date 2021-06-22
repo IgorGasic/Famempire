@@ -13,7 +13,7 @@ export const Title = styled.h2`
   text-transform: uppercase;
   padding: 50px 0;
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 425px) {
     font-size: 30px;
     text-align: center;
   }
@@ -27,7 +27,7 @@ export const Button = styled.button`
   background: linear-gradient(90deg, #0f72e5 0%, #1cb3fe 100%);
   cursor: pointer;
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 425px) {
     font-size: 20px;
     padding: 20px 60px;
   }

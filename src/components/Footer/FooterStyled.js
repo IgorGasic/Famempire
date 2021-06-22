@@ -23,6 +23,10 @@ export const TitleLogo = styled.div`
   padding-left: 20px;
   width: 50vw;
 
+  @media screen and (max-width: 425px) {
+    padding-left: 5px;
+  }
+
   @media screen and (max-width: 414px) {
     padding-left: 5px;
   }
@@ -40,6 +44,11 @@ export const Logo = styled.img`
   height: 120px;
   width: 120px;
 
+  @media screen and (max-width: 425px) {
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+  }
   @media screen and (max-width: 414px) {
     height: 60px;
     width: 60px;
@@ -63,6 +72,11 @@ export const TitleContainer = styled.div`
 export const Title = styled.h3`
   color: #fff;
   font-size: 70px;
+
+  @media screen and (max-width: 425px) {
+    font-size: 30px;
+    margin-left: -20px;
+  }
 
   @media screen and (max-width: 414px) {
     font-size: 30px;
@@ -119,6 +133,9 @@ export const ContetBottom = styled.div`
   @media screen and (min-width: 1377px) and (max-width: 1600px) {
     padding-top: 90px;
   }
+  @media only screen and (max-width: 425px) {
+    padding-top: 150px;
+  }
   @media only screen and (max-width: 414px) {
     padding-top: 60px;
   }
@@ -138,6 +155,10 @@ export const ContetBottom = styled.div`
 export const Text = styled.p`
   color: #fff;
   font-size: 30px;
+
+  @media screen and (max-width: 425px) {
+    font-size: 22px;
+  }
 
   @media screen and (max-width: 414px) {
     font-size: 20px;
