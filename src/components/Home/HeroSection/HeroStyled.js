@@ -71,6 +71,10 @@ export const HeroSurvey = styled.form`
   @media screen and (max-width: 425px) {
     padding-top: 0;
     max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   /* @media screen and (max-width: 414px) {
@@ -111,13 +115,11 @@ export const Input = styled.input`
 
   @media screen and (max-width: 425px) {
     width: 320px;
-    display: flex;
-    flex-direction: column;
   }
 
   @media screen and (max-width: 414px) {
     width: 300px;
-    margin: 10px 10px 10px 50px;
+    margin: 10px 0;
   }
   @media screen and (max-width: 375px) {
     width: 275px;
