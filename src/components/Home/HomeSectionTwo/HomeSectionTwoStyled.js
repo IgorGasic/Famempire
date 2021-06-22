@@ -68,7 +68,7 @@ export const Img = styled.img`
     left: 1070px;
   }
 
-  @media screen and (max-width: 424px) {
+  @media screen and (max-width: 425px) {
     left: 0;
   }
 

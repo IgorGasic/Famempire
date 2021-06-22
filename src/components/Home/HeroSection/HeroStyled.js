@@ -9,10 +9,11 @@ export const HeroContainer = styled.div`
   background-size: cover;
   object-fit: cover;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     height: 100%;
     padding-bottom: 50px;
   }
+
   @media screen and (max-width: 360px) {
     background-position: center;
     background-size: cover;
@@ -41,6 +42,10 @@ export const HeroH1 = styled.h1`
   text-transform: uppercase;
   font-weight: 200;
 
+  @media screen and (max-width: 425px) {
+    font-size: 2rem;
+  }
+
   @media screen and (max-width: 414px) {
     font-size: 2rem;
     margin: 0 1rem;
@@ -51,6 +56,10 @@ export const HeroH3 = styled.h3`
   color: #0f72e5;
   font-size: 1.8rem;
 
+  @media screen and (max-width: 425px) {
+    font-size: 1.2rem;
+  }
+
   @media screen and (max-width: 414px) {
     font-size: 1.2rem;
   }
@@ -59,10 +68,15 @@ export const HeroSurvey = styled.form`
   max-width: 1510px;
   padding-top: 100px;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     padding-top: 0;
     max-width: 100vw;
   }
+
+  /* @media screen and (max-width: 414px) {
+    padding-top: 0;
+    max-width: 100vw;
+  } */
 `;
 export const Input = styled.input`
   width: 478px;
@@ -93,6 +107,12 @@ export const Input = styled.input`
   }
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     margin-bottom: 170px;
+  }
+
+  @media screen and (max-width: 425px) {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
   }
 
   @media screen and (max-width: 414px) {
@@ -127,6 +147,11 @@ export const Button = styled.button`
   @media screen and (max-width: 1336px) {
     width: 350px;
     margin: 0 0 15px 0;
+  }
+
+  @media screen and (max-width: 425px) {
+    width: 320px;
+    font-size: 19px;
   }
 
   @media screen and (max-width: 414px) {
