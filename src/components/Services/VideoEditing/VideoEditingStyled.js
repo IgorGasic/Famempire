@@ -9,7 +9,7 @@ export const MainContainer = styled.div`
     height: 100vh;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     flex-direction: column;
   }
 `;
@@ -23,6 +23,10 @@ export const BlueContainer = styled.div`
     width: 25%;
   }
 
+  @media screen and (max-width: 425px) {
+    width: 100%;
+    height: 45vh;
+  }
   @media screen and (max-width: 414px) {
     width: 100%;
     height: 45vh;
@@ -46,6 +50,10 @@ export const TitleDiv = styled.div`
     bottom: 540px;
   }
 
+  @media screen and (max-width: 425px) {
+    left: 25px;
+    bottom: 260px;
+  }
   @media screen and (max-width: 414px) {
     left: 20px;
     bottom: 200px;
@@ -79,7 +87,7 @@ export const Title = styled.h3`
     padding-left: 30px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     padding: 50px 0 0 10px;
     font-size: 30px;
     text-align: center;
@@ -98,7 +106,7 @@ export const Text = styled.p`
     padding-right: 10px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     font-size: 20px;
     text-align: center;
     margin-right: 50px;
@@ -109,7 +117,7 @@ export const ContentContainer = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     position: static;
   }
 `;
@@ -129,7 +137,7 @@ export const MainTitle = styled.h2`
   text-transform: uppercase;
   letter-spacing: 0.45em;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     font-size: 40px;
   }
   @media screen and (max-width: 375px) {
@@ -150,28 +158,34 @@ export const ArrowContainer = styled.div`
     left: 860px;
   }
 
+  @media screen and (max-width: 425px) {
+    left: 115px;
+    top: 180px;
+    padding-bottom: 50px;
+  }
+
   @media screen and (max-width: 414px) {
     left: 120px;
     top: 180px;
     padding-bottom: 50px;
+  }
 
-    @media screen and (max-width: 375px) {
-      left: 90px;
-      top: 150px;
-      padding-bottom: 50px;
-    }
+  @media screen and (max-width: 375px) {
+    left: 90px;
+    top: 150px;
+    padding-bottom: 50px;
+  }
 
-    @media screen and (max-width: 360px) {
-      left: 85px;
-      top: 150px;
-      padding-bottom: 50px;
-    }
+  @media screen and (max-width: 360px) {
+    left: 85px;
+    top: 150px;
+    padding-bottom: 50px;
+  }
 
-    @media screen and (max-width: 320px) {
-      left: 65px;
-      top: 120px;
-      padding-bottom: 50px;
-    }
+  @media screen and (max-width: 320px) {
+    left: 65px;
+    top: 120px;
+    padding-bottom: 50px;
   }
 `;
 export const VideoWrapper = styled.div`
@@ -197,7 +211,7 @@ export const VideoWrapper = styled.div`
     left: 635px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     top: 535px;
     left: 12px;
   }
@@ -215,7 +229,7 @@ export const Points = styled.img`
     padding-left: 30px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     height: 0;
     width: 0;
   }

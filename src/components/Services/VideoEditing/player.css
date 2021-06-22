@@ -5,6 +5,13 @@
     width: 868px;
     height: 500px;
 }
+@media screen and (max-width: 425px){
+    .react-player{
+        max-width: 400px;
+        max-height: 400px;
+        padding-right: 2px;
+    }
+}
 @media screen and (max-width: 414px){
     .react-player{
         max-width: 390px;

@@ -20,13 +20,7 @@
   .time-wrapper{
     font-size: 20px;
   }
-@media screen and (max-width: 400px){
-  .App{
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-}
-@media screen and (max-width: 415px){
+@media screen and (max-width: 425px){
   .App{
     margin-right: 20px;
     margin-left: 20px;

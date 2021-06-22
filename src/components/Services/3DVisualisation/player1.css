@@ -12,7 +12,13 @@
     max-height: 250px;
     }
 }
-
+@media screen and (max-width: 425px){
+    .react-player1{
+        max-width: 400px;
+        max-height: 350px;
+        padding-right: 2px;
+    }
+}
 @media screen and (max-width: 414px){
     .react-player1{
         max-width: 350px;

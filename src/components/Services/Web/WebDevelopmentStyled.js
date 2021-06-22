@@ -9,7 +9,7 @@ export const MainContainer = styled.div`
     height: 100vh;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     flex-direction: column;
   }
 `;
@@ -22,7 +22,10 @@ export const BlueContainer = styled.div`
     height: 100vh;
     width: 25%;
   }
-
+  @media screen and (max-width: 425px) {
+    width: 100%;
+    height: 50vh;
+  }
   @media screen and (max-width: 414px) {
     width: 100%;
     height: 45vh;
@@ -46,6 +49,10 @@ export const TitleDiv = styled.div`
     bottom: 650px;
   }
 
+  @media screen and (max-width: 425px) {
+    left: 25px;
+    bottom: 220px;
+  }
   @media screen and (max-width: 414px) {
     left: 20px;
     bottom: 200px;
@@ -79,6 +86,13 @@ export const Title = styled.h3`
     padding-left: 30px;
   }
 
+  @media screen and (max-width: 425px) {
+    padding: 100px 0 0 10px;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 5px;
+  }
+
   @media screen and (max-width: 414px) {
     padding: 50px 0 0 10px;
     font-size: 30px;
@@ -99,7 +113,7 @@ export const Text = styled.p`
     padding-right: 10px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     font-size: 20px;
     text-align: center;
     margin-right: 50px;
@@ -112,7 +126,7 @@ export const ContentContainer = styled.div`
   justify-content: center;
   position: relative;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     position: static;
   }
 `;
@@ -122,6 +136,9 @@ export const MainTitle = styled.h2`
   text-transform: uppercase;
   letter-spacing: 0.45em;
 
+  @media screen and (max-width: 425px) {
+    font-size: 40px;
+  }
   @media screen and (max-width: 414px) {
     font-size: 40px;
   }
@@ -155,6 +172,11 @@ export const ImgWrapper = styled.div`
     left: 175px;
   }
 
+  @media screen and (max-width: 425px) {
+    top: 550px;
+    left: 12px;
+  }
+
   @media screen and (max-width: 414px) {
     top: 500px;
     left: 12px;
@@ -173,6 +195,11 @@ export const Img = styled.img`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     width: 800px;
     height: 440px;
+  }
+
+  @media screen and (max-width: 425px) {
+    width: 400px;
+    height: 260px;
   }
 
   @media screen and (max-width: 414px) {
@@ -201,7 +228,7 @@ export const Points = styled.img`
     padding-left: 30px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     height: 0;
     width: 0;
   }
@@ -219,6 +246,11 @@ export const ShitText = styled.p`
     left: 115px;
     font-size: 25px;
     top: 670px;
+  }
+  @media screen and (max-width: 425px) {
+    padding-top: 200px;
+    width: 350px;
+    left: 40px;
   }
   @media screen and (max-width: 414px) {
     padding-top: 120px;

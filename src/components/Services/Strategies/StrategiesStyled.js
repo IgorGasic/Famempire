@@ -8,7 +8,7 @@ export const MainContainer = styled.div`
   @media screen and (min-width: 1500px) and (max-width: 1600px) {
     height: 100vh;
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     flex-direction: column;
   }
 `;
@@ -22,6 +22,10 @@ export const BlueContainer = styled.div`
     width: 25%;
   }
 
+  @media screen and (max-width: 425px) {
+    width: 100%;
+    height: 65vh;
+  }
   @media screen and (max-width: 414px) {
     width: 100%;
     height: 70vh;
@@ -40,7 +44,10 @@ export const TitleDiv = styled.div`
     left: 320px;
     bottom: 650px;
   }
-
+  @media screen and (max-width: 425px) {
+    left: 25px;
+    bottom: 650px;
+  }
   @media screen and (max-width: 414px) {
     left: 20px;
     bottom: 720px;
@@ -69,6 +76,10 @@ export const Title = styled.h3`
     padding-top: 320px;
     font-size: 35px;
     padding-left: 30px;
+  }
+  @media screen and (max-width: 425px) {
+    padding: 100px 0 0 95px;
+    font-size: 30px;
   }
 
   @media screen and (max-width: 414px) {
@@ -99,7 +110,7 @@ export const Text = styled.p`
     padding: 20px 20px 0 30px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     text-align: center;
     margin-right: 50px;
     font-size: 20px;
@@ -120,7 +131,7 @@ export const MainTitle = styled.h2`
   text-transform: uppercase;
   letter-spacing: 0.45em;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     font-size: 40px;
   }
   @media screen and (max-width: 375px) {
@@ -140,6 +151,10 @@ export const Wrapper = styled.div`
     bottom: 50px;
   }
 
+  @media screen and (max-width: 425px) {
+    left: 115px;
+    top: 740px;
+  }
   @media screen and (max-width: 414px) {
     left: 110px;
     top: 890px;
@@ -166,7 +181,7 @@ export const Points = styled.img`
     padding-left: 30px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     height: 0;
     width: 0;
   }
@@ -179,7 +194,7 @@ export const ImgKonj = styled.img`
     height: 600px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     width: 300px;
     height: 600px;
   }
@@ -201,6 +216,13 @@ export const TextDiv = styled.div`
     height: 420px;
     margin-top: 50px;
     padding-top: 90px;
+  }
+
+  @media screen and (max-width: 425px) {
+    width: 400px;
+    margin-left: 0;
+    padding-top: 650px;
+    padding-left: 0;
   }
 
   @media screen and (max-width: 414px) {
