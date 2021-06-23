@@ -76,11 +76,6 @@ export const HeroSurvey = styled.form`
     align-items: center;
     justify-content: center;
   }
-
-  /* @media screen and (max-width: 414px) {
-    padding-top: 0;
-    max-width: 100vw;
-  } */
 `;
 export const Input = styled.input`
   width: 478px;
