@@ -28,7 +28,7 @@ export const BlueContainer = styled.div`
   }
   @media screen and (max-width: 414px) {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
   }
   @media screen and (max-width: 375px) {
     width: 100%;
@@ -78,12 +78,12 @@ export const Title = styled.h3`
     padding-left: 30px;
   }
   @media screen and (max-width: 425px) {
-    padding: 60px 0 0 95px;
+    padding: 50px 0 0 95px;
     font-size: 30px;
   }
 
   @media screen and (max-width: 414px) {
-    padding: 60px 0 0 95px;
+    padding: 50px 0 0 95px;
     font-size: 30px;
   }
   @media screen and (max-width: 375px) {
