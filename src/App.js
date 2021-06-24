@@ -1,17 +1,17 @@
-import React from 'react';
-import GlobalStyle from './GlobalStyle';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Home from './pages/HomePage';
-import AboutUs from './pages/AboutUsPage';
-import ContactUs from './pages/ContactUsPage';
-import BrandDesign from './components/Services/BrandDesign/BrandDesign';
-import VideoEditing from './components/Services/VideoEditing/VideoEditing';
-import Visualisation from './components/Services/3DVisualisation/Visualisation';
-import WebDevelopment from './components/Services/Web/WebDevelopment';
-import Strategies from './components/Services/Strategies/Strategies';
-import Survey from './components/Survey/Survey';
-import ScrollToTop from './ScrollToTop';
-import { Navbar } from './components/Navbar/Navbar';
+import React from "react";
+import GlobalStyle from "./GlobalStyle";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./pages/HomePage";
+import AboutUs from "./pages/AboutUsPage";
+import ContactUs from "./pages/ContactUsPage";
+import BrandDesign from "./components/Services/BrandDesign/BrandDesign";
+import VideoEditing from "./components/Services/VideoEditing/VideoEditing";
+import Visualisation from "./components/Services/3DVisualisation/Visualisation";
+import WebDevelopment from "./components/Services/Web/WebDevelopment";
+import Strategies from "./components/Services/Strategies/Strategies";
+import Survey from "./components/Survey/Survey";
+import ScrollToTop from "./ScrollToTop";
+import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
   return (
